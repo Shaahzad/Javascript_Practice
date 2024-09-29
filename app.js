@@ -92,17 +92,104 @@
 // console.log(a == b)
 // console.log(a === b)
 
+// Q4   Arrow Functions
 
+
+// const person = {
+//     Name: "shahzad",
+//     greet: ()=>{
+//         setTimeout(function(){
+//             console.log(this.Name)
+//         },1000)
+//     }
+//     }
+// person.greet()
+
+
+// const person1 = {
+//     Name: "shahzad",
+//     greet: ()=>{
+//     console.log(this.Name)
+//     }
+//     }
+// person1.greet()
+
+
+// const person2 = {
+//     Name: "shahzad",
+//     greet: function (){
+//         console.log(this.Name)
+//     }
+//     }
+// person2.greet()
+
+// const person3 = {
+//     Name: "shahzad",
+//     greet: function (){
+//         setTimeout(()=>{
+//             console.log(this.Name)
+//         },0)
+//     }
+//     }
+// person3.greet()
+
+
+// Q5   Closures
+
+// function counter (){
+//     let count = 0;
+//     return function(){
+//         count++
+//         return count
+//     }
+// }
+// const count = counter()
+// console.log(count())
+// console.log(count())
+// console.log(count())
+
+// Q6  difference between null and undefined?
+
+// let a = null
+// let b = undefined
+
+// console.log(a == b)
+// console.log(a === b)
+// console.log(typeof a)
+// console.log(typeof b)
+
+// Q7   Event Loop
+
+
+// console.log("Start");
+
+// setTimeout(() => {
+//     console.log("Timeout 1");
+// }, 0);
+
+// Promise.resolve().then(() => {
+//     console.log("Promise 1");
+// });
+
+// setTimeout(() => {
+//     console.log("Timeout 2");
+// }, 0);
+
+// Promise.resolve().then(() => {
+//     console.log("Promise 2");
+// });
+
+// console.log("End");
 
 
 //  Basics 
 //  Explain var, let, and const. How are they different?  ✅
 // What is hoisting in JavaScript? ✅
 // What is the difference between == and ===? ✅
-// What is the purpose of arrow functions (=>) in JavaScript? How do they differ from regular functions?
-// Explain closures in JavaScript with an example.
-// What is the difference between null and undefined?
-// How does the JavaScript event loop work?
+// What is the purpose of arrow functions (=>) in JavaScript? How do they differ from regular functions? ✅
+// Explain closures in JavaScript with an example. ✅
+// What is the difference between null and undefined? ✅
+// How does the JavaScript event loop work? ✅
 // What are promises, and how do you handle asynchronous code in JavaScript?
 // What is the difference between map(), filter(), and reduce()?
 // Explain how this keyword works in JavaScript. How does it behave in different contexts?
