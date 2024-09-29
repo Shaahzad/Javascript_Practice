@@ -181,6 +181,91 @@
 
 // console.log("End");
 
+// Q8  Promises, and how do you handle asynchronous code in JavaScript?
+
+//  async function fetchdata(){
+//     try {
+//     let Data = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     let result = await Data.json()
+//     console.log(result)
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
+
+// fetchdata()
+
+
+
+// Q9  What is the difference between map(), filter(), and reduce()?
+
+// const NewArr = [1,2,3,4,5,6,7,8,9,10]
+
+// const modifyArr = NewArr.map((num)=> num * 2)
+
+// console.log(NewArr)
+// console.log(modifyArr)
+
+
+// const NewArr = [1,2,3,4,5,6,7,8,9,10]
+
+// const FilterArr = NewArr.filter((num)=> num > 5)
+
+// console.log(NewArr)
+// console.log(FilterArr)
+
+
+// const NewArr = [1,2,3,4,5,6,7,8,9,10]
+
+// const OneValue = NewArr.reduce((acc,curr) => {
+//  return acc + curr
+// },0)
+
+// console.log(NewArr)
+// console.log(OneValue)
+
+
+// Q10 Explain how this keyword works in JavaScript. How does it behave in different contexts?
+
+// const person = {
+//     Name: "shahzad",
+//     greet: function (){
+//         console.log(this.Name)
+//     }
+// }
+
+// const person2 = {Name: "Hafiz Shahzad"}
+
+// person.greet.call(person2)
+
+// const Name1 = {Name: "shahzad"}
+// const Name2 = {Name: "Hafiz Shahzad"}
+
+// function concat () {
+//     console.log(this.Name)
+// }
+
+// concat.apply(Name1)
+
+// function greet (Arg1, Arg2) {
+//    console.log(Arg1 + " " + this.Name  +" "+ Arg2)
+// }
+
+// const person = {Name: "Allice"}
+
+// greet.apply(person, ['Hello', 'World'])
+
+// 'use strict'
+// const person = {Name: "shahzad"}
+
+// function greet (){
+// console.log(this.Name)
+// }
+
+// const greet1 = greet.bind(person)
+// greet1()
+
+
 
 //  Basics 
 //  Explain var, let, and const. How are they different?  ✅
@@ -190,9 +275,9 @@
 // Explain closures in JavaScript with an example. ✅
 // What is the difference between null and undefined? ✅
 // How does the JavaScript event loop work? ✅
-// What are promises, and how do you handle asynchronous code in JavaScript?
-// What is the difference between map(), filter(), and reduce()?
-// Explain how this keyword works in JavaScript. How does it behave in different contexts?
+// What are promises, and how do you handle asynchronous code in JavaScript? ✅
+// What is the difference between map(), filter(), and reduce()? ✅
+// Explain how this keyword works in JavaScript. How does it behave in different contexts? ✅
 // What is the purpose of strict mode in JavaScript, and how do you enable it?
 // What are JavaScript template literals, and how do they work?
 // Explain the concept of prototypal inheritance in JavaScript.
