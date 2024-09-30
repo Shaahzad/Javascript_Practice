@@ -283,8 +283,20 @@
 // hello()
 // console.log(x)
 
+// Q12 What are JavaScript template literals, and how do they work?
+
+// const Name = 'shahzad';
+// const lastname = 'memon';
+// const FullName = `My Name Is ${Name} ${lastname}`
+// console.log(FullName)
 
 
+// function Hello(Fname, Lname){
+//    console.log(`My Name Is ${Fname} ${Lname}`)
+// }
+// const Name = 'shahzad'
+// const LastName = 'Memon'
+// Hello(Name,LastName)
 
 //  Basics 
 //  Explain var, let, and const. How are they different?  ✅
@@ -298,7 +310,7 @@
 // What is the difference between map(), filter(), and reduce()? ✅
 // Explain how this keyword works in JavaScript. How does it behave in different contexts? ✅
 // What is the purpose of strict mode in JavaScript, and how do you enable it? ✅
-// What are JavaScript template literals, and how do they work?
+// What are JavaScript template literals, and how do they work? ✅
 // Explain the concept of prototypal inheritance in JavaScript.
 // What is the purpose of the async/await syntax in JavaScript?
 // How do you handle errors in JavaScript using try/catch blocks?
