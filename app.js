@@ -298,6 +298,76 @@
 // const LastName = 'Memon'
 // Hello(Name,LastName)
 
+
+// Q13 Explain the concept of prototypal inheritance in JavaScript.
+
+
+// const personPrototype = {
+//     greet: function(){
+//         console.log(`Hello, My Name Is ${this.Name}`)
+//     }
+// }
+
+// const person1 = Object.create(personPrototype)
+// person1.Name = "shahzad"
+// person1.greet()
+
+
+// function Person (Name,age){
+//     this.Name = Name;
+//     this.age = age;
+// }
+
+// Person.prototype.greet = function(){
+//     console.log(`Hello, My Name Is ${this.Name} and I am ${this.age} years old`)
+// }
+
+// const Person1 = new Person("shahzad", 24)
+// const Person2 = new Person("Hafiz", 24)
+
+// Person1.greet()
+// Person2.greet()
+
+// Q14 What is the purpose of the async/await syntax in JavaScript?
+
+// async function fetchData(){
+//     try {
+//         const Data = await fetch('https://jsonplaceholder.typicode.com/users/')
+//         const result = await Data.json()
+//         console.log(result)    
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
+
+// fetchData()
+
+// function fetchData(){
+//     fetch('https://jsonplaceholder.typicode.com/users/')
+//     .then((response) => response.json())
+//     .then((data) => console.log(data))
+//     .catch((error) => console.log(error))
+// }
+
+// fetchData()
+
+
+// Q15  How do you handle errors in JavaScript using try/catch blocks?
+
+// async function fetchData(){
+//     try {
+//         const Data = await fetch('https://jsonplaceholder.typicode.com/users/')
+//         console.log(Data)
+//         let result = await Data.json()
+//         console.log(result)
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
+
+// fetchData()
+
+
 //  Basics 
 //  Explain var, let, and const. How are they different?  ✅
 // What is hoisting in JavaScript? ✅
@@ -311,6 +381,6 @@
 // Explain how this keyword works in JavaScript. How does it behave in different contexts? ✅
 // What is the purpose of strict mode in JavaScript, and how do you enable it? ✅
 // What are JavaScript template literals, and how do they work? ✅
-// Explain the concept of prototypal inheritance in JavaScript.
-// What is the purpose of the async/await syntax in JavaScript?
-// How do you handle errors in JavaScript using try/catch blocks?
+// Explain the concept of prototypal inheritance in JavaScript. ✅
+// What is the purpose of the async/await syntax in JavaScript? ✅
+// How do you handle errors in JavaScript using try/catch blocks? ✅
