@@ -265,6 +265,25 @@
 // const greet1 = greet.bind(person)
 // greet1()
 
+// Q11 What is the purpose of strict mode in JavaScript, and how do you enable it?
+// 'use strict'
+// x = 10;
+// console.log(x);
+// function hello(){
+//     console.log(this)
+// }
+// hello()
+// 
+// let public = 24;
+// console.log(public);
+// function hello(){
+//     x= 10;
+//     console.log(x)
+// }
+// hello()
+// console.log(x)
+
+
 
 
 //  Basics 
@@ -278,7 +297,7 @@
 // What are promises, and how do you handle asynchronous code in JavaScript? ✅
 // What is the difference between map(), filter(), and reduce()? ✅
 // Explain how this keyword works in JavaScript. How does it behave in different contexts? ✅
-// What is the purpose of strict mode in JavaScript, and how do you enable it?
+// What is the purpose of strict mode in JavaScript, and how do you enable it? ✅
 // What are JavaScript template literals, and how do they work?
 // Explain the concept of prototypal inheritance in JavaScript.
 // What is the purpose of the async/await syntax in JavaScript?
