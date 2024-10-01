@@ -368,6 +368,123 @@
 // fetchData()
 
 
+// Advance Javascript
+
+
+// Q1 What are higher-order functions in JavaScript, and can you provide an example?
+
+// const arr = [1,2,3,4,5]
+
+// const maparr = arr.map((element)=>{
+//      return element * 2    
+// })
+
+// console.log(maparr)
+
+// const filterarr = arr.filter((element)=>{
+//     return element > 2
+// })
+
+// console.log(filterarr)
+
+// const Reducearr = arr.reduce((a,b)=>{
+//    return  a+b
+// },0)
+
+// console.log(Reducearr)
+
+
+// function multiply(factor){
+//     return function(num){
+//        return num * factor
+//     }
+// }
+
+// const multiplyByTwo = multiply(2)
+// const multiplyByThree = multiply(3)
+
+// console.log(multiplyByTwo(5))
+// console.log(multiplyByThree(5))
+
+
+// Q2 Explain how JavaScript's call(), apply(), and bind() methods work. How are they different?
+
+// const person = {
+//     firstName: 'Shahzad',
+//     lastName: 'Memon',
+//     fullName: function(){
+//         console.log(this.firstName + ' ' + this.lastName)
+//     }
+// }
+// const person2 = {
+//     firstName: 'Hafiz',
+//     lastName: 'Shahzad',
+// }
+
+// person.fullName()
+// person.fullName.call(person2)
+
+// function sum(a,b){
+//     console.log(a + b)
+// }
+
+// sum.apply(null, [2,3])
+
+// const person = {
+//     FirstName: 'Shahzad',
+//     LastName: 'Memon',
+//     FullName: function(){
+//         console.log(this.FirstName + ' ' + this.LastName)
+//     }
+// }
+
+// const person2 = {
+//     FirstName: 'Hafiz',
+//     LastName: 'Shahzad',
+// }
+
+// const fullName = person.FullName.bind(person2)
+// fullName()
+
+
+// const person1 = {
+//     Name: "shahzad",
+//     greet: function(greeting, greeting2){
+//         console.log(greeting + " " + greeting2 + " " + this.Name)
+//     }
+// }
+
+
+// const person2 = {
+//     Name: "Hafiz",
+// }
+
+// person1.greet.call(person2, 'Hello')
+// person1.greet.apply(person2, ['hello', 'Good Morning'])
+// const boundgreet = person1.greet.bind(person2, 'Hello')
+// boundgreet('Good Morning')
+
+// Q3 What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
+
+
+//  Advanced 
+//  What are higher-order functions in JavaScript, and can you provide an example? ✅
+// Explain how JavaScript's call(), apply(), and bind() methods work. How are they different? ✅
+// What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
+// Explain the concept of closures and how they are used in event handlers or callbacks.
+// What are JavaScript generators, and how do they work? Can you provide an example?
+// What are proxies in JavaScript, and how can you use them to intercept and customize operations on objects?
+// Explain the concept of the "event delegation" model in JavaScript.
+// What is the difference between synchronous and asynchronous execution in JavaScript? How does the event loop manage this?
+// What is memoization in JavaScript, and how can you implement it to optimize performance?
+// What are Web Workers, and how do they help with JavaScript concurrency?
+// Explain the module pattern in JavaScript. How does it help in organizing code?
+// What is currying in JavaScript, and why would you use it?
+// How does the JavaScript garbage collection mechanism work? What are weak references, and how do they relate to memory management?
+// What is the Temporal Dead Zone in JavaScript, and how does it relate to variable declarations?
+// What are WeakMaps and WeakSets in JavaScript? How do they differ from regular Map and Set objects? 
+
+
 //  Basics 
 //  Explain var, let, and const. How are they different?  ✅
 // What is hoisting in JavaScript? ✅
@@ -384,3 +501,5 @@
 // Explain the concept of prototypal inheritance in JavaScript. ✅
 // What is the purpose of the async/await syntax in JavaScript? ✅
 // How do you handle errors in JavaScript using try/catch blocks? ✅
+
+
