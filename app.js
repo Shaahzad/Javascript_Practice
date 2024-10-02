@@ -464,14 +464,32 @@
 // const boundgreet = person1.greet.bind(person2, 'Hello')
 // boundgreet('Good Morning')
 
-// Q3 What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
+
+// Q3 Explain the concept of closures and how they are used in event handlers or callbacks.
+
+// function outerFunction(name){
+//     return function innerFunction(name1){
+//       console.log(`outer function ${name}`)
+//       console.log(`inner function ${name1}`)
+//     }
+// }
+
+// const closurefunction = outerFunction("shahzad")
+// closurefunction("hafiz")
+
+// function fetchData(url){
+//     setTimeout(()=>{
+//         console.log(`fetching data ${url}`)
+//     },1000)
+// }
+// fetchData('https://jsonplaceholder.typicode.com/users/')
 
 
 //  Advanced 
 //  What are higher-order functions in JavaScript, and can you provide an example? ✅
 // Explain how JavaScript's call(), apply(), and bind() methods work. How are they different? ✅
+// Explain the concept of closures and how they are used in event handlers or callbacks. ✅
 // What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
-// Explain the concept of closures and how they are used in event handlers or callbacks.
 // What are JavaScript generators, and how do they work? Can you provide an example?
 // What are proxies in JavaScript, and how can you use them to intercept and customize operations on objects?
 // Explain the concept of the "event delegation" model in JavaScript.
