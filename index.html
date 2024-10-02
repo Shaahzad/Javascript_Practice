@@ -138,7 +138,50 @@
 // weakset.add(obj1);
 // obj1 = null
 // console.log(weakset)
-// </script>
+
+
+
+//call apply bind
+
+// const person = {
+//     firstName: 'Shahzad',
+//     lastName: 'Memon',
+//     fullName: function(){
+//         console.log(this.firstName + ' ' + this.lastName)
+//     }
+// }
+
+// const person2 = {
+//     firstName: 'Hafiz',
+//     lastName: 'Shahzad',
+// }
+
+// person.fullName.call(person2)
+
+
+
+// function Name(Message, puctuation){
+//     console.log(Message, this.Name, puctuation)
+// }
+
+// const person = {
+//     Name: 'shahzad'
+// }
+// Name.apply(person, ['Hi','!'])
+
+
+// function Hello(){
+// console.log(this.Name)
+// }
+
+// const person ={
+//     Name: 'shahzad'
+// }
+
+// const bound = Hello.bind(person)
+// bound()
+
+ </script>
 
 </body>
 </html>
