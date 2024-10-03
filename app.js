@@ -485,6 +485,46 @@
 // fetchData('https://jsonplaceholder.typicode.com/users/')
 
 
+// Q4  What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
+
+// const original = {
+//     name: 'shahzad',
+//     age: 25,
+//     address: {
+//         city: 'karachi',
+//         country: 'pakistan'
+//     }
+// }
+
+// const shallowcopy = Object.assign({}, original)
+
+// shallowcopy.address.city = 'lahore'
+
+// console.log(original.address.city)
+// console.log(shallowcopy.address.city)
+
+// const original = {
+//     name: 'shahzad',
+//     age: 25,
+//     address: {
+//         city: 'karachi',
+//         country: 'pakistan'
+//     }
+// }
+
+// const obj1 = Object.assign({}, original)
+// obj1.name = 'hafiz'
+// console.log(obj1)
+// console.log(original)
+
+// const original = {
+//     name: 'shahzad'
+// }
+
+// const obj1 = Object.assign({}, original)
+// obj1.name = 'hafiz'
+// console.log(obj1)
+// console.log(original)
 //  Advanced 
 //  What are higher-order functions in JavaScript, and can you provide an example? ✅
 // Explain how JavaScript's call(), apply(), and bind() methods work. How are they different? ✅
