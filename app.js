@@ -525,11 +525,13 @@
 // obj1.name = 'hafiz'
 // console.log(obj1)
 // console.log(original)
+
+
 //  Advanced 
 //  What are higher-order functions in JavaScript, and can you provide an example? ✅
 // Explain how JavaScript's call(), apply(), and bind() methods work. How are they different? ✅
 // Explain the concept of closures and how they are used in event handlers or callbacks. ✅
-// What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each?
+// What is the difference between deep cloning and shallow cloning in JavaScript? How can you implement each? ✅
 // What are JavaScript generators, and how do they work? Can you provide an example?
 // What are proxies in JavaScript, and how can you use them to intercept and customize operations on objects?
 // Explain the concept of the "event delegation" model in JavaScript.
