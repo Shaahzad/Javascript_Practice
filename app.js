@@ -370,6 +370,27 @@
 
 // Advance Javascript
 
+// What are JavaScript generators, and how do they work? Can you provide an example?
+
+// function *generate(val){
+//     for(let i = 0; i < val.length; i++){
+//         if(val[i] === 3){
+//             continue
+//         }
+//         yield val[i]
+//     }
+// }
+
+// const arr = [1,2,3,4,5]
+// const Result = generate(arr)
+// // console.log(Result.next().value)
+// // console.log(Result.next().value)
+// // console.log(Result.next().value)
+// // console.log(Result.next().value)
+// console.log(Result.next())
+// console.log(Result.next())
+// console.log(Result.next())
+// console.log(Result.next())
 
 // Q1 What are higher-order functions in JavaScript, and can you provide an example?
 
