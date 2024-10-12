@@ -655,3 +655,90 @@
 // console.log(a == b);
 // console.log(a === b);
 // console.log(b === c);
+
+// Q8
+
+// class Chameleon {
+//     static colorChange(newColor) {
+//       this.newColor = newColor;
+//       return this.newColor;
+//     }
+  
+//     constructor({ newColor = 'green' } = {}) {
+//       this.newColor = newColor;
+//     }
+//   }
+  
+//   const freddie = new Chameleon({ newColor: 'purple' });
+//   console.log(freddie.colorChange('orange'));
+
+// Q9
+
+// let greeting;
+// greetign = {}; // Typo!
+// console.log(greetign);
+
+
+// Q10
+
+// function bark() {
+//     console.log('Woof!');
+//   }
+  
+//   bark.animal = 'dog';
+//   bark.fruit = 'apple';
+//   console.log(bark.animal,bark.fruit);
+
+
+// Q11
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+  
+//   const member = new Person('Lydia', 'Hallie');
+//   Person.getFullName = function() {
+//     return `${this.firstName} ${this.lastName}`;
+//   };
+  
+//   console.log(member.getFullName());
+
+// Q12
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+  
+//   const lydia = new Person('Lydia', 'Hallie');
+//   const sarah = Person('Sarah', 'Smith');
+  
+//   console.log(lydia);
+//   console.log(sarah);
+
+
+
+// Q13
+
+// What are the three phases of event propagation?
+// A: Target > Capturing > Bubbling
+// B: Bubbling > Target > Capturing
+// C: Target > Bubbling > Capturing
+// D: Capturing > Target > Bubbling
+
+
+// Q14
+
+// All object have prototypes.
+
+
+// Q15
+
+// function sum(a, b) {
+//     return a + b;
+//   }
+  
+// console.log(sum(1, '2'))
+
+
