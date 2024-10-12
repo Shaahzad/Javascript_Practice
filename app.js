@@ -742,3 +742,57 @@
 // console.log(sum(1, '2'))
 
 
+// Q16
+
+// let number = 0;
+// console.log(number++);
+// console.log(++number);
+// console.log(number);
+
+
+// Q17
+
+// function getPersonInfo(one, two, three) {
+//     console.log(one);
+//     console.log(two);
+//     console.log(three);
+//   }
+  
+//   const person = 'Lydia';
+//   const age = 21;
+  
+//   getPersonInfo`${person} is ${age} years old`;
+
+// Q18
+
+// function checkAge(data) {
+//     if (data === {age: 18}) {
+//       console.log('You are an adult!');
+//     } else if (data == { age: 18 }) {
+//       console.log('You are still an adult.');
+//     } else {
+//       console.log(`Hmm.. You don't have an age I guess`);
+//     }
+//   }
+  
+//   checkAge({ age: 18 });
+
+
+// Q19
+
+// function getAge(...args) {
+//     console.log(typeof args);
+//   }
+  
+//   getAge(21,23,25);
+
+
+// Q20
+
+// function getAge() {
+//     'use strict';
+//     age = 21;
+//     console.log(age);
+//   }
+  
+//   getAge();
