@@ -584,3 +584,74 @@
 // How do you handle errors in JavaScript using try/catch blocks? ✅
 
 
+// Q1
+// function sayHi() {
+//     console.log(name);
+//     console.log(age);
+//     var name = 'Lydia';
+//     let age = 21;
+//   }
+  
+//   sayHi();
+
+// Q2
+// for (var i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1);
+//   }
+  
+//   for (let i = 0; i < 3; i++) {
+//     setTimeout(() => console.log(i), 1);
+//   }
+
+// Q3
+// const shape = {
+//     radius: 10,
+//     diameter() {
+//       return this.radius * 2;
+//     },
+//     perimeter: () => 2 * Math.PI * this.radius,
+//   };
+  
+//   console.log(shape.diameter());
+//   console.log(shape.perimeter());
+
+// Q4
+// console.log(+true)
+// console.log(!'Lydia')
+
+// Q5
+
+// const bird = {
+//     size: 'small',
+//   };
+  
+//   const mouse = {
+//     name: 'Mickey',
+//     small: true,
+//   };
+// console.log(mouse.bird.size)
+// console.log(mouse[bird.size])
+// console.log(mouse[bird["size"]] )
+
+// Q6
+
+// let c = { 
+//     greeting: 'Hey!' 
+// };
+// let d;
+
+// d = c;
+// c.greeting = 'Hello';
+// console.log(d.greeting);
+// console.log(c.greeting);
+
+
+// Q7
+
+// let a = 3;
+// let b = new Number(3);
+// let c = 3;
+
+// console.log(a == b);
+// console.log(a === b);
+// console.log(b === c);
