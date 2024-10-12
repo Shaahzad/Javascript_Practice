@@ -799,8 +799,88 @@
 
 
 
+// Q21
+
+// const sum = eval('10*10+5');
+// console.log(sum);
+
+// Q22
+
+// sessionStorage.setItem('cool_secret', 123);
+
+// A: Forever, the data doesn't get lost.
+// B: When the user closes the tab.
+// C: When the user closes the entire browser, not only the tab.
+// D: When the user shuts off their computer.
 
 
+// Q23
+
+// var num = 8;
+// var num = 10;
+
+// console.log(num);
+
+// Q24
+
+// const obj = { 1: 'a', 2: 'b', 3: 'c' };
+// const set = new Set([1, 2, 3, 4, 5]);
+
+// obj.hasOwnProperty('1');
+// obj.hasOwnProperty(1);
+// set.has('1');
+// set.has(1);
 
 
+// Q25
 
+// const obj = { a: 'one', b: 'two', a: 'three' };
+// console.log(obj);
+
+
+// Q26
+
+// The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
+// A: true
+// B: false
+// C: it depends
+
+
+// Q27
+
+// for (let i = 1; i < 5; i++) {
+//     if (i === 3) continue;
+//     console.log(i);
+//   }
+
+// Q28
+
+// String.prototype.giveLydiaPizza = () => {
+//     return 'Just give Lydia pizza already!';
+//   };
+  
+//   const name = 'Lydia';
+  
+//   console.log(name.giveLydiaPizza())
+
+// Q29
+
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
+
+// a[b] = 123;
+// a[c] = 456;
+
+// console.log(a[b]);
+// console.log(a,b,c)
+
+// Q30
+
+// const foo = () => console.log('First');
+// const bar = () => setTimeout(() => console.log('Second'));
+// const baz = () => console.log('Third');
+
+// bar();
+// foo();
+// baz();
