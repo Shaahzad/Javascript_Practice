@@ -884,3 +884,114 @@
 // bar();
 // foo();
 // baz();
+
+
+// Q31
+
+/* <div onclick="console.log('first div')">
+  <div onclick="console.log('second div')">
+    <button onclick="console.log('button')">
+      Click!
+    </button>
+  </div>
+</div> */
+
+
+// Q32
+
+/* <div onclick="console.log('div')">
+  <p onclick="console.log('p')">
+    Click here!
+  </p>
+</div> */
+
+// Q33
+
+// const person = { name: 'Lydia' };
+
+// function sayHi(age) {
+//   return `${this.name} is ${age}`;
+// }
+
+// console.log(sayHi.call(person, 21));
+// console.log(sayHi.bind(person, 21));
+
+
+// Q34
+
+// function sayHi() {
+//     return (() => 0)();
+//   }
+  
+//   console.log(typeof sayHi());
+
+// Q35
+
+// Which of these values are falsy?
+// 0;
+// new Number(0);
+// ('');
+// (' ');
+// new Boolean(false);
+// undefined;
+
+// There are 8 falsy values:
+
+// undefined
+// null
+// NaN
+// false
+// '' (empty string)
+// 0
+// -0
+// 0n (BigInt(0))
+// Function constructors, like new Number and new Boolean are truthy.
+
+
+// Q36
+
+// console.log(typeof typeof 1)
+
+
+// Q37
+
+// const numbers = [1, 2, 3];
+// numbers[10] = 11;
+// console.log(numbers);
+
+
+// Q38
+
+// (() => {
+//     let x, y;
+//     try {
+//       throw new Error();
+//     } catch (x) {
+//       (x = 1), (y = 2);
+//       console.log(x);
+//     }
+//     console.log(x);
+//     console.log(y);
+//   })();
+
+
+// Q39
+
+// Everything in JavaScript is either a...
+// A: primitive or object
+// B: function or object
+// C: trick question! only objects
+// D: number or object
+// JavaScript only has primitive types and objects.
+// Primitive types are boolean, null, undefined, bigint, number, string, and symbol.
+// What differentiates a primitive from an object is that primitives do not have any properties or methods; however, you'll note that 'foo'.toUpperCase() evaluates to 'FOO' and does not result in a TypeError. This is because when you try to access a property or method on a primitive like a string, JavaScript will implicitly wrap the primitive type using one of the wrapper classes, i.e. String, and then immediately discard the wrapper after the expression evaluates. All primitives except for null and undefined exhibit this behavior.
+
+
+// Q40
+
+// [[0, 1], [2, 3]].reduce(
+//     (acc, cur) => {
+//       return acc.concat(cur);
+//     },
+//     [1, 2],
+//   );
