@@ -996,4 +996,81 @@
 //     [1, 2],
 //   );
 
+// Q41
+// console.log(!!null)
+// console.log(!!'')
+// console.log(!!1)
 
+// Q42
+// setInterval(() => console.log('Hi'), 1000);
+
+
+// Q43
+// console.log([...'Lydia'])
+
+// Q44
+// function* generator(i) {
+//   yield i;
+//   yield i * 2;
+// }
+
+// const gen = generator(10);
+
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+
+// Q45
+// const firstPromise = new Promise((res, rej) => {
+//   setTimeout(res, 500, 'one');
+// });
+
+// const secondPromise = new Promise((res, rej) => {
+//   setTimeout(res, 100, 'two');
+// });
+
+// Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
+
+// Q46
+// let person = { name: 'Lydia' };
+// const members = [person];
+// person = null;
+
+// console.log(members);
+
+// Q47
+// const person = {
+//   name: 'Lydia',
+//   age: 21,
+// };
+
+// for (const item in person) {
+//   console.log(item);
+// }
+
+// Q48
+// console.log(3 + 4 + '5');
+
+// // Q49
+// const num = parseInt('7*6', 10);
+// console.log(num)
+
+// Q50
+// let result = [1, 2, 3].map(num => {
+//   if (typeof num === 'number') return;
+//   return num * 2;
+// });
+
+// console.log(result)
+
+// Q51
+// function getInfo(member, year) {
+//   member.name = 'Lydia';
+//   year = '1998';
+// }
+
+// const person = { name: 'Sarah' };
+// const birthYear = '1997';
+
+// getInfo(person, birthYear);
+
+// console.log(person, birthYear);
