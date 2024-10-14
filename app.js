@@ -1131,3 +1131,55 @@
 // delete Dog.prototype.bark;
 
 // pet.bark();
+
+
+// Q56
+// const set = new Set([1, 1, 2, 3, 4]);
+
+// console.log(set);
+
+// Q57
+
+// counter.js
+// let counter = 10;
+// export default counter;
+
+// // index.js
+// import myCounter from './counter';
+
+// myCounter += 1;
+
+// console.log(myCounter);
+
+// An imported module is read-only: you cannot modify the imported module. Only the module that exports them can change its value.
+
+// When we try to increment the value of myCounter, it throws an error: myCounter is read-only and cannot be modified.
+
+
+
+// Q58
+
+// const name = 'Lydia';
+// age = 21;
+
+// console.log(delete name);
+// console.log(delete age);
+
+// The delete operator returns a boolean value: true on a successful deletion, else it'll return false. However, variables declared with the var, const, or let keywords cannot be deleted using the delete operator.
+
+// The name variable was declared with a const keyword, so its deletion is not successful: false is returned. When we set age equal to 21, we actually added a property called age to the global object. You can successfully delete properties from objects this way, also the global object, so delete age returns true.
+
+// Q59
+
+// const numbers = [1, 2, 3, 4, 5];
+// const [y] = numbers;
+
+// console.log(y);
+
+
+// Q60
+
+// const user = { name: 'Lydia', age: 21 };
+// const admin = { admin: true, ...user };
+
+// console.log(admin);
