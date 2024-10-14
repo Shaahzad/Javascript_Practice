@@ -1074,3 +1074,60 @@
 // getInfo(person, birthYear);
 
 // console.log(person, birthYear);
+
+
+// Q52
+
+// function greeting() {
+//   throw 'Hello world!';
+// }
+
+// function sayHi() {
+//   try {
+//     const data = greeting();
+//     console.log('It worked!', data);
+//   } catch (e) {
+//     console.log('Oh no an error:', e);
+//   }
+// }
+
+// sayHi();
+
+
+// Q53
+// function Car() {
+//   this.make = 'Lamborghini';
+//   return { make: 'Maserati' };
+// }
+
+// const myCar = new Car();
+// // console.log(myCar)
+// console.log(myCar.make);
+
+// Q54
+
+// (() => {
+//   let x = (y = 10);
+// })();
+
+// console.log(typeof x);
+// console.log(typeof y);
+
+// Q55
+// class Dog {
+//   constructor(name) {
+//     this.name = name;
+//   }
+// }
+
+// Dog.prototype.bark = function() {
+//   console.log(`Woof I am ${this.name}`);
+// };
+
+// const pet = new Dog('Mara');
+
+// pet.bark();
+
+// delete Dog.prototype.bark;
+
+// pet.bark();
