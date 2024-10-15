@@ -1351,3 +1351,58 @@
 // console.log(shape);
 
 
+// Q76
+
+// const { firstName: myName } = { firstName: 'Lydia' };
+
+// console.log(firstName);
+
+// Q77
+
+// Is this a pure function?
+// function sum(a, b) {
+//   return a + b;
+// }
+// A: Yes
+// B: No
+
+
+// Q78
+
+// const add = () => {
+//   const cache = {};
+//   return num => {
+//     if (num in cache) {
+//       return `From cache! ${cache[num]}`;
+//     } else {
+//       const result = num + 10;
+//       cache[num] = result;
+//       return `Calculated! ${result}`;
+//     }
+//   };
+// };
+
+// const addFunction = add();
+// console.log(addFunction(10));
+// console.log(addFunction(10));
+// console.log(addFunction(5 * 2));
+
+
+// Q79
+
+// const myLifeSummedUp = ['☕', '💻', '🍷', '🍫'];
+
+// for (let item in myLifeSummedUp) {
+//   console.log(item);
+// }
+
+// for (let item of myLifeSummedUp) {
+//   console.log(item);
+// }
+
+
+// Q80
+
+// const list = [1 + 2, 1 * 2, 1 / 2];
+// console.log(list);
+
