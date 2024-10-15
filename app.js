@@ -1183,3 +1183,117 @@
 // const admin = { admin: true, ...user };
 
 // console.log(admin);
+
+// Q61
+
+// const person = { name: 'Lydia' };
+
+// Object.defineProperty(person, 'age', { value: 21 });
+
+// console.log(person);
+// console.log(Object.keys(person));
+
+
+// Q62
+
+// const settings = {
+//   username: 'lydiahallie',
+//   level: 19,
+//   health: 90,
+// };
+
+// const data = JSON.stringify(settings, ['level', 'health']);
+// console.log(data);
+
+
+// Q63
+
+// let num = 10;
+
+// const increaseNumber = () => num++;
+// const increasePassedNumber = number => number++;
+
+// const num1 = increaseNumber();
+// const num2 = increasePassedNumber(num1);
+
+// console.log(num1);
+// console.log(num2);
+
+
+// Q64
+
+// const value = { number: 10 };
+
+// const multiply = (x = { ...value }) => {
+//   console.log((x.number *= 2));
+// };
+
+// multiply();
+// multiply();
+// multiply(value);
+// multiply(value);
+
+
+// Q65
+
+// [1, 2, 3, 4].reduce((x, y) => console.log(x, y));
+
+
+// Q66
+
+// class Dog {
+//   constructor(name) {
+//     this.name = name;
+//   }
+// };
+
+// class Labrador extends Dog {
+//   // 1
+//   constructor(name, size) {
+//     this.size = size;
+//   }
+//   // 2
+//   constructor(name, size) {
+//     super(name);
+//     this.size = size;
+//   }
+//   // 3
+//   constructor(size) {
+//     super(name);
+//     this.size = size;
+//   }
+//   // 4
+//   constructor(name, size) {
+//     this.name = name;
+//     this.size = size;
+//   }
+
+// };
+
+// Q67
+
+// index.js
+// console.log('running index.js');
+// import { sum } from './sum.js';
+// console.log(sum(1, 2));
+
+// // sum.js
+// console.log('running sum.js');
+// export const sum = (a, b) => a + b;
+
+// Q68
+
+// console.log(Number(2) === Number(2));
+// console.log(Boolean(false) === Boolean(false));
+// console.log(Symbol('foo') === Symbol('foo'));
+
+// Q69
+
+// const name = 'Lydia Hallie';
+// console.log(name.padStart(13));
+// console.log(name.padStart(2));
+
+
+// Q70
+
+// console.log('🥑' + '💻');
