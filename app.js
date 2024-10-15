@@ -1297,3 +1297,57 @@
 // Q70
 
 // console.log('🥑' + '💻');
+
+
+// Q71
+
+// function* startGame() {
+//   const answer = yield 'Do you love JavaScript?';
+//   if (answer !== 'Yes') {
+//     return "Oh wow... Guess we're done here";
+//   }
+//   return 'JavaScript loves you back ❤️';
+// }
+
+// const game = startGame();
+// console.log(game.next().value); // Do you love JavaScript?
+// console.log(game.next("Yes").value); // JavaScript loves you back ❤️
+
+
+// Q72
+
+// console.log(String.raw`Hello\nworld`);
+
+// Q73
+
+// async function getData() {
+//   return await Promise.resolve('I made it!');
+// }
+
+// const data = getData();
+// console.log(data);
+
+
+// Q74
+
+// function addToList(item, list) {
+//   return list.push(item);
+// }
+
+// const result = addToList('apple', ['banana']);
+// console.log(result);
+
+
+
+// Q75
+
+// const box = { x: 10, y: 20 };
+
+// Object.freeze(box);
+
+// const shape = box;
+// shape.x = 100;
+
+// console.log(shape);
+
+
