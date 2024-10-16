@@ -1406,3 +1406,118 @@
 // const list = [1 + 2, 1 * 2, 1 / 2];
 // console.log(list);
 
+
+
+// Q81
+// function sayHi(name) {
+//   return `Hi there, ${name}`;
+// }
+
+// console.log(sayHi());
+
+
+// Q82
+
+// var status = '😎';
+
+// setTimeout(() => {
+//   const status = '😍';
+
+//   const data = {
+//     status: '🥑',
+//     getStatus() {
+//       return this.status;
+//     },
+//   };
+
+//   console.log(data.getStatus());
+//   console.log(data.getStatus.call(this));
+// }, 0);
+
+
+// Q83
+
+// const person = {
+//   name: 'Lydia',
+//   age: 21,
+// };
+
+// let city = person.city;
+// city = 'Amsterdam';
+
+// console.log(person);
+
+// Q84
+
+// function checkAge(age) {
+//   if (age < 18) {
+//     const message = "Sorry, you're too young.";
+//   } else {
+//     const message = "Yay! You're old enough!";
+//   }
+
+//   return message;
+// }
+
+// console.log(checkAge(21));
+
+
+// Q85
+
+// fetch('https://www.website.com/api/user/1')
+//   .then(res => res.json())
+//   .then(res => console.log(res));
+
+
+// Q86
+
+// function getName(name) {
+//   const hasName = 
+// };
+
+
+
+
+// Q87
+// var str = 'I Want Pizza'
+
+// var indexing = str.charAt(0)
+
+// console.log(indexing)
+
+// console.log('I want pizza'[0])
+
+
+// Q88
+
+// function sum(num1, num2 = num1) {
+//   console.log(num1 + num2);
+// }
+
+// sum(10);
+
+
+// Q89
+
+// module.js
+// export default () => 'Hello world';
+// export const name = 'Lydia';
+
+// // index.js
+// import * as data from './module';
+
+// console.log(data);
+
+
+// Q90
+
+
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//   }
+// }
+
+// const member = new Person('John');
+// console.log(typeof member);
+// console.log(typeof Person);
