@@ -1521,3 +1521,58 @@
 // const member = new Person('John');
 // console.log(typeof member);
 // console.log(typeof Person);
+
+// Q91
+
+// let newList = [1, 2, 3].push(4);
+
+// console.log(newList.push(5));
+
+
+
+// Q92
+
+// function giveLydiaPizza() {
+//   return 'Here is pizza!';
+// }
+
+// const giveLydiaChocolate = () =>
+//   "Here's chocolate... now go hit the gym already.";
+
+// console.log(giveLydiaPizza.prototype);
+// console.log(giveLydiaChocolate.prototype);
+
+
+// Q93
+
+// const person = {
+//   name: 'Lydia',
+//   age: 21,
+// };
+
+// for (const [x, y] of Object.entries(person)) {
+//   console.log(x, y);
+// }
+
+
+// Q94
+
+// function getItems(fruitList, ...args, favoriteFruit) {
+//   return [...fruitList, ...args, favoriteFruit]
+// }
+
+// getItems(["banana", "apple"], "pear", "orange")
+
+
+// Q95
+
+// function nums(a, b) {
+//   if (a > b) console.log('a is bigger');
+//   else console.log('b is bigger');
+//   return
+//   a + b;
+// }
+
+// console.log(nums(4, 2));
+// console.log(nums(1, 2));
+
