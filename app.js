@@ -1691,3 +1691,56 @@
 // compareMembers(person);
 
 
+// Q106
+
+// const colorConfig = {
+//   red: true,
+//   blue: false,
+//   green: true,
+//   black: true,
+//   yellow: false,
+// };
+
+// const colors = ['pink', 'red', 'blue'];
+
+// console.log(colorConfig.colors[1]);
+
+
+// Q107
+
+// console.log('❤️' === '❤️');
+
+
+// Q108
+
+// Which of these methods modifies the original array?
+// const emojis = ['✨', '🥑', '😍'];
+
+// emojis.map(x => x + '✨');
+// emojis.filter(x => x !== '🥑');
+// emojis.find(x => x !== '🥑');
+// emojis.reduce((acc, cur) => acc + '✨');
+// emojis.slice(1, 2, '✨');
+// emojis.splice(1, 2, '✨');
+
+
+// Q109
+
+// const food = ['🍕', '🍫', '🥑', '🍔'];
+// const info = { favoriteFood: food[0] };
+
+// info.favoriteFood = '🍝';
+
+// console.log(food);
+// console.log(info);
+
+
+// Q110
+
+// JSON.parse();
+// A: Parses JSON to a JavaScript value
+// B: Parses a JavaScript object to JSON
+// C: Parses any JavaScript value to JSON
+// D: Parses JSON to a JavaScript object only
+
+
