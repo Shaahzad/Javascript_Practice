@@ -1575,3 +1575,119 @@
 
 // console.log(nums(4, 2));
 // console.log(nums(1, 2));
+
+
+// Q96
+
+// class Person {
+//   constructor() {
+//     this.name = 'Lydia';
+//   }
+// }
+
+// Person = class AnotherPerson {
+//   constructor() {
+//     this.name = 'Sarah';
+//   }
+// };
+
+// const member = new Person();
+// console.log(member.name);
+
+
+// Q97
+
+// const info = {
+//   [Symbol('a')]: 'b',
+// };
+
+// console.log(info);
+// console.log(Object.keys(info));
+
+
+// Q98
+
+// const getList = ([x, ...y]) => [x, y]
+// const getUser = user => ({name: user.name, age: user.age})
+
+// const list = [1, 2, 3, 4]
+// const user = { name: "Lydia", age: 21 }
+
+// console.log(getList(list))
+// console.log(getUser(user))
+
+
+// Q99
+
+// const name = 'Lydia';
+
+// console.log(name());
+
+
+// Q100
+
+// 🎉✨ This is my 100th question! ✨🎉
+
+// const output = `${[] && 'Im'}possible!
+// You should${'' && `n't`} see a therapist after so much JavaScript lol`;
+// console.log(output)
+
+
+// Q101
+
+// const one = false || {} || null;
+// const two = null || false || '';
+// const three = [] || 0 || true;
+
+// console.log(one, two, three);
+
+
+// Q102
+
+// const myPromise = () => Promise.resolve('I have resolved!');
+
+// function firstFunction() {
+//   myPromise().then(res => console.log(res));
+//   console.log('second');
+// }
+
+// async function secondFunction() {
+//   console.log(await myPromise());
+//   console.log('second');
+// }
+
+// firstFunction();
+// secondFunction();
+
+// Q103
+
+// const set = new Set();
+
+// set.add(1);
+// set.add('Lydia');
+// set.add({ name: 'Lydia' });
+
+// for (let item of set) {
+//   console.log(item + 2);
+// }
+
+
+// Q104
+// console.log(Promise.resolve(5))
+
+
+// Q105
+
+// function compareMembers(person1, person2 = person) {
+//   if (person1 !== person2) {
+//     console.log('Not the same!');
+//   } else {
+//     console.log('They are the same!');
+//   }
+// }
+
+// const person = { name: 'Lydia' };
+
+// compareMembers(person);
+
+
