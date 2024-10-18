@@ -1742,3 +1742,65 @@
 // B: Parses a JavaScript object to JSON
 // C: Parses any JavaScript value to JSON
 // D: Parses JSON to a JavaScript object only
+
+
+
+// Q111
+
+// let name = 'Lydia';
+
+// function getName() {
+//   console.log(name);
+//   let name = 'Sarah';
+// }
+
+// getName();
+
+
+// Q112
+
+// function* generatorOne() {
+//   yield ['a', 'b', 'c'];
+// }
+
+// function* generatorTwo() {
+//   yield* ['a', 'b', 'c'];
+// }
+
+// const one = generatorOne();
+// const two = generatorTwo();
+
+// console.log(one.next().value);
+// console.log(two.next().value);
+
+
+// Q113
+
+// console.log(`${(x => x)('I love')} to program`);
+
+
+// Q114
+
+// let config = {
+//   alert: setInterval(() => {
+//     console.log('Alert!');
+//   }, 1000),
+// };
+
+// config = null;
+
+
+// Q115
+
+// const myMap = new Map();
+// const myFunc = () => 'greeting';
+
+// myMap.set(myFunc, 'Hello world!');
+
+// //1
+// console.log(myMap.get('greeting'))
+// //2
+// console.log(myMap.get(myFunc))
+// //3
+// console.log(myMap.get(() => 'greeting'))
+// console.log(myMap)
