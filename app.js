@@ -1804,3 +1804,70 @@
 // //3
 // console.log(myMap.get(() => 'greeting'))
 // console.log(myMap)
+
+// Q116
+
+// const person = {
+//   name: 'Lydia',
+//   age: 21,
+// };
+
+// const changeAge = (x = { ...person }) => (x.age += 1);
+// const changeAgeAndName = (x = { ...person }) => {
+//   x.age += 1;
+//   x.name = 'Sarah';
+// };
+
+// changeAge(person);
+// changeAgeAndName();
+
+// console.log(person);
+
+
+// Q117
+
+// function sumValues(x, y, z) {
+//   return x + y + z;
+// }
+
+// console.log(sumValues(...[1, 2, 3])
+// )
+
+
+// Q118
+
+// let num = 1;
+// const list = ['🥳', '🤠', '🥰', '🤪'];
+
+// console.log(list[(num += 1)]);
+
+
+// Q119
+
+// const person = {
+//   firstName: 'Lydia',
+//   lastName: 'Hallie',
+//   pet: {
+//     name: 'Mara',
+//     breed: 'Dutch Tulip Hound',
+//   },
+//   getFullName() {
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+// };
+
+// console.log(person.pet?.name);
+// console.log(person.pet?.family?.name);
+// console.log(person.getFullName?.());
+// console.log(member.getLastName?.());
+
+
+// Q120
+
+// const groceries = ['banana', 'apple', 'peanuts'];
+
+// if (groceries.indexOf('banana')) {
+//   console.log('We have to buy bananas!');
+// } else {
+//   console.log(`We don't have to buy bananas!`);
+// }
