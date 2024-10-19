@@ -1871,3 +1871,58 @@
 // } else {
 //   console.log(`We don't have to buy bananas!`);
 // }
+
+
+// Q121
+
+// const config = {
+//   languages: [],
+//   set language(lang) {
+//     return this.languages.push(lang);
+//   },
+// };
+
+// console.log(config.language);
+
+
+// Q122
+
+// const name = 'Lydia Hallie';
+
+// console.log(!typeof name === 'object');
+// console.log(!typeof name === 'string');
+
+
+// Q123
+
+// const add = x => y => z => {
+//   console.log(x, y, z);
+//   return x + y + z;
+// };
+
+// add(4)(5)(6);
+
+
+// Q124
+
+// async function* range(start, end) {
+//   for (let i = start; i <= end; i++) {
+//     yield Promise.resolve(i);
+//   }
+// }
+
+// (async () => {
+//   const gen = range(1, 3);
+//   for await (const item of gen) {
+//     console.log(item);
+//   }
+// })();
+
+
+// Q125
+
+// const myFunc = ({ x, y, z }) => {
+//   console.log(x, y, z);
+// };
+
+// myFunc(1, 2, 3);
