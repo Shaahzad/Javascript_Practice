@@ -1926,3 +1926,74 @@
 // };
 
 // myFunc(1, 2, 3);
+
+
+// Q126
+
+// function getFine(speed, amount) {
+//   const formattedSpeed = new Intl.NumberFormat('en-US', {
+//     style: 'unit',
+//     unit: 'mile-per-hour'
+//   }).format(speed);
+
+//   const formattedAmount = new Intl.NumberFormat('en-US', {
+//     style: 'currency',
+//     currency: 'USD'
+//   }).format(amount);
+
+//   return `The driver drove ${formattedSpeed} and has to pay ${formattedAmount}`;
+// }
+
+// console.log(getFine(130, 300))
+
+
+// Q127
+
+// const spookyItems = ['👻', '🎃', '🕸'];
+// ({ item: spookyItems[3] } = { item: '💀' });
+
+// console.log(spookyItems);
+
+
+// Q128
+
+// const name = 'Lydia Hallie';
+// const age = 21;
+
+// console.log(Number.isNaN(name));
+// console.log(Number.isNaN(age));
+
+// console.log(isNaN(name));
+// console.log(isNaN(age));
+
+
+// Q129
+
+// const randomValue = 21;
+
+// function getInfo() {
+//   console.log(typeof randomValue);
+//   const randomValue = 'Lydia Hallie';
+// }
+
+// getInfo();
+
+
+// Q130
+
+// const myPromise = Promise.resolve('Woah some cool data');
+
+// (async () => {
+//   try {
+//     console.log(await myPromise);
+//   } catch {
+//     throw new Error(`Oops didn't work`);
+//   } finally {
+//     console.log('Oh finally!');
+//   }
+// })();
+
+
+
+
+
