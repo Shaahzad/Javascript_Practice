@@ -1994,6 +1994,129 @@
 // })();
 
 
+// Q131
+
+// const emojis = ['🥑', ['✨', '✨', ['🍕', '🍕']]];
+
+// console.log(emojis.flat(1));
+
+// Q132
+
+// class Counter {
+//   constructor() {
+//     this.count = 0;
+//   }
+
+//   increment() {
+//     this.count++;
+//   }
+// }
+
+// const counterOne = new Counter();
+// counterOne.increment();
+// counterOne.increment();
+
+// const counterTwo = counterOne;
+// counterTwo.increment();
+
+// console.log(counterOne.count);
+
+
+// Q133
+
+// const myPromise = Promise.resolve(Promise.resolve('Promise'));
+
+// function funcOne() {
+//   setTimeout(() => console.log('Timeout 1!'), 0);
+//   myPromise.then(res => res).then(res => console.log(`${res} 1!`));
+//   console.log('Last line 1!');
+// }
+
+// async function funcTwo() {
+//   const res = await myPromise;
+//   console.log(`${res} 2!`)
+//   setTimeout(() => console.log('Timeout 2!'), 0);
+//   console.log('Last line 2!');
+// }
+
+// funcOne();
+// funcTwo();
+
+
+// Q134
+
+// sum.js
+// export default function sum(x) {
+//   return x + x;
+// }
+
+// // index.js
+// import * as sum from './sum';
 
 
 
+// Q135
+
+// const handler = {
+//   set: () => console.log('Added a new property!'),
+//   get: () => console.log('Accessed a property!'),
+// };
+
+// const person = new Proxy({}, handler);
+
+// person.name = 'Lydia';
+// person.name;
+
+// Q136
+
+// const person = { name: 'shahzad'}
+
+// Object.seal(person);
+
+
+// Q137
+
+// const person = {
+//   name: 'Lydia Hallie',
+//   address: {
+//     street: '100 Main St',
+//   },
+// };
+
+// Object.freeze(person);
+// console.log(person.address.street = '200 Main St');
+// console.log(person.name = 'Sarah');
+// console.log(person)
+
+
+// Q138
+
+// const add = x => x + x;
+
+// function myFunc(num = 2, value = add(num)) {
+//   console.log(num, value);
+// }
+
+// myFunc();
+// myFunc(3);
+
+
+// Q139
+
+
+// class Counter {
+//   #number = 10
+
+//   increment() {
+//     this.#number++
+//   }
+
+//   getNum() {
+//     return this.#number
+//   }
+// }
+
+// const counter = new Counter()
+// counter.increment()
+
+// console.log(counter.increment())
