@@ -2120,3 +2120,104 @@
 // counter.increment()
 
 // console.log(counter.increment())
+
+
+// Q140
+
+// const teams = [
+//   { name: 'Team 1', members: ['Paul', 'Lisa'] },
+//   { name: 'Team 2', members: ['Laura', 'Tim'] },
+// ];
+
+// function* getMembers(members) {
+//   for (let i = 0; i < members.length; i++) {
+//     yield members[i];
+//   }
+// }
+
+// function* getTeams(teams) {
+//   for (let i = 0; i < teams.length; i++) {
+//     yield* getMembers(teams[i].members);
+//   }
+// }
+
+// const obj = getTeams(teams);
+// // obj.next(); // { value: "Paul", done: false }
+// // obj.next(); // { value: "Lisa", done: false }
+// console.log(obj.next());
+// console.log(obj.next());
+// console.log(obj.next());
+// console.log(obj.next());
+
+
+// Q141
+
+// const person = {
+//   name: 'Lydia Hallie',
+//   hobbies: ['coding'],
+// };
+
+// function addHobby(hobby, hobbies = person.hobbies) {
+//   hobbies.push(hobby);
+//   return hobbies;
+// }
+
+// addHobby('running', []);
+// addHobby('dancing');
+// addHobby('baking', person.hobbies);
+
+// console.log(person.hobbies);
+
+
+// Q142
+
+// class Bird {
+//   constructor() {
+//     console.log("I'm a bird. 🦢");
+//   }
+// }
+
+// class Flamingo extends Bird {
+//   constructor() {
+//     console.log("I'm pink. 🌸");
+//     super();
+//   }
+// }
+
+// const pet = new Flamingo();
+
+
+// Q143
+
+// const emojis = ['🎄', '🎅🏼', '🎁', '⭐'];
+
+// /* 1 */ emojis.push('🦌');
+// /* 2 */ emojis.splice(0, 2);
+// console.log(emojis.length)
+
+
+// Q144
+
+// const person = {
+//   name: "Lydia Hallie",
+//   age: 21
+// }
+
+// function* getPerson() {
+//   yield person
+// }
+
+// const gen = getPerson();
+// console.log(gen.next().value)
+
+
+// Q145
+
+// let count = 0;
+// const nums = [0, 1, 2, 3];
+
+// nums.forEach(num => {
+// 	if (num) count += 1
+// })
+
+// console.log(count)
