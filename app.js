@@ -2221,3 +2221,81 @@
 // })
 
 // console.log(count)
+
+
+
+
+// Q146
+
+// function getFruit(fruits) {
+// 	console.log(fruits?.[1]?.[1])
+// }
+
+// getFruit([['🍊', '🍌'], ['🍍']])
+// getFruit()
+// getFruit([['🍍'], ['🍊', '🍌']])
+
+
+
+// Q147
+
+// class Calc {
+// 	constructor() {
+// 		this.count = 0 
+// 	}
+
+// 	increase() {
+// 		this.count++
+// 	}
+// }
+
+// const calc = new Calc()
+// new Calc().increase()
+
+// console.log(calc.count)
+
+
+// Q148
+
+// const user = {
+// 	email: "e@mail.com",
+// 	password: "12345"
+// }
+
+// const updateUser = ({ email, password }) => {
+// 	if (email) {
+// 		Object.assign(user, { email })
+// 	}
+
+// 	if (password) {
+// 		user.password = password
+// 	}
+
+// 	return user
+// }
+
+// const updatedUser = updateUser({ email: "new@email.com", password: "54321" })
+
+// console.log(updatedUser === user)
+
+// Q149
+
+// const fruit = ['🍌', '🍊', '🍎']
+
+//  fruit.slice(0, 1)
+//  fruit.splice(0, 1)
+//  fruit.unshift('🍇')
+
+// console.log(fruit)
+
+
+// Q150
+
+// const animals = {};
+// let dog = { emoji: '🐶' }
+// let cat = { emoji: '🐈' }
+
+// animals[dog] = { ...dog, name: "Mara" }
+// animals[cat] = { ...cat, name: "Sara" }
+
+// console.log(animals[dog])
