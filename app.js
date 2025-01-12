@@ -2370,3 +2370,41 @@
 // 	console.log("Yay it's a string!")
 // }
 
+
+// function Variables(){
+// var a = 1;
+// let b = 2;
+// const c = 3;
+// }
+
+// Variables()
+
+
+if(true){
+  var a = 1;
+  let b = 2;
+  const c = 3;
+}
+
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+
+function outer (){
+  let count = 0;
+   return function inner (){
+    count += 1;
+    return count
+  }
+}
+
+const counter = outer()
+
+console.log(counter())
+console.log(counter())
+console.log(counter())
+console.log(counter())
+console.log(counter())
+console.log(counter())
+console.log(counter())
