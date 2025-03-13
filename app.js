@@ -60,7 +60,7 @@
 // function hello(){
 //     console.log("first")
 // }
- 
+
 // myfunction()
 // var myfunction = function(){
 //     console.log("first")
@@ -591,14 +591,14 @@
 //     var name = 'Lydia';
 //     let age = 21;
 //   }
-  
+
 //   sayHi();
 
 // Q2
 // for (var i = 0; i < 3; i++) {
 //     setTimeout(() => console.log(i), 1);
 //   }
-  
+
 //   for (let i = 0; i < 3; i++) {
 //     setTimeout(() => console.log(i), 1);
 //   }
@@ -611,7 +611,7 @@
 //     },
 //     perimeter: () => 2 * Math.PI * this.radius,
 //   };
-  
+
 //   console.log(shape.diameter());
 //   console.log(shape.perimeter());
 
@@ -624,7 +624,7 @@
 // const bird = {
 //     size: 'small',
 //   };
-  
+
 //   const mouse = {
 //     name: 'Mickey',
 //     small: true,
@@ -663,12 +663,12 @@
 //       this.newColor = newColor;
 //       return this.newColor;
 //     }
-  
+
 //     constructor({ newColor = 'green' } = {}) {
 //       this.newColor = newColor;
 //     }
 //   }
-  
+
 //   const freddie = new Chameleon({ newColor: 'purple' });
 //   console.log(freddie.colorChange('orange'));
 
@@ -684,7 +684,7 @@
 // function bark() {
 //     console.log('Woof!');
 //   }
-  
+
 //   bark.animal = 'dog';
 //   bark.fruit = 'apple';
 //   console.log(bark.animal,bark.fruit);
@@ -696,12 +696,12 @@
 //     this.firstName = firstName;
 //     this.lastName = lastName;
 //   }
-  
+
 //   const member = new Person('Lydia', 'Hallie');
 //   Person.getFullName = function() {
 //     return `${this.firstName} ${this.lastName}`;
 //   };
-  
+
 //   console.log(member.getFullName());
 
 // Q12
@@ -710,10 +710,10 @@
 //     this.firstName = firstName;
 //     this.lastName = lastName;
 //   }
-  
+
 //   const lydia = new Person('Lydia', 'Hallie');
 //   const sarah = Person('Sarah', 'Smith');
-  
+
 //   console.log(lydia);
 //   console.log(sarah);
 
@@ -738,7 +738,7 @@
 // function sum(a, b) {
 //     return a + b;
 //   }
-  
+
 // console.log(sum(1, '2'))
 
 
@@ -757,10 +757,10 @@
 //     console.log(two);
 //     console.log(three);
 //   }
-  
+
 //   const person = 'Lydia';
 //   const age = 21;
-  
+
 //   getPersonInfo`${person} is ${age} years old`;
 
 // Q18
@@ -774,7 +774,7 @@
 //       console.log(`Hmm.. You don't have an age I guess`);
 //     }
 //   }
-  
+
 //   checkAge({ age: 18 });
 
 
@@ -783,7 +783,7 @@
 // function getAge(...args) {
 //     console.log(typeof args);
 //   }
-  
+
 //   getAge(21,23,25);
 
 
@@ -794,7 +794,7 @@
 //     age = 21;
 //     console.log(age);
 //   }
-  
+
 //   getAge();
 
 
@@ -858,9 +858,9 @@
 // String.prototype.giveLydiaPizza = () => {
 //     return 'Just give Lydia pizza already!';
 //   };
-  
+
 //   const name = 'Lydia';
-  
+
 //   console.log(name.giveLydiaPizza())
 
 // Q29
@@ -922,7 +922,7 @@
 // function sayHi() {
 //     return (() => 0)();
 //   }
-  
+
 //   console.log(typeof sayHi());
 
 // Q35
@@ -2380,7 +2380,7 @@
 // Variables()
 
 
-if(true){
+if (true) {
   var a = 1;
   let b = 2;
   const c = 3;
@@ -2391,20 +2391,75 @@ if(true){
 // console.log(c)
 
 
-function outer (){
-  let count = 0;
-   return function inner (){
-    count += 1;
-    return count
+// function outer (){
+//   let count = 0;
+//    return function inner (){
+//     count += 1;
+//     return count
+//   }
+// }
+
+// const counter = outer()
+
+// console.log(counter())
+// console.log(counter())
+// console.log(counter())
+// console.log(counter())
+// console.log(counter())
+// console.log(counter())
+// console.log(counter())
+
+
+
+const p1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Hi 1")
+  }, 1000)
+})
+
+const p2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    // resolve("Hi 2")
+    reject("hi 2")
+  }, 3000)
+})
+
+const p3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Hi 3")
+    // reject("Hi 3")
+  }, 5000)
+})
+
+// const res1 = p1.then((value) => {
+//   console.log(value)
+// })
+
+// const res2 = p2.then((value) => {
+//   console.log(value)
+// })
+// const res3 = p3.then((value) => {
+//   console.log(value)
+// })
+
+// const resolve_all = Promise.all([p1, p2, p3])
+
+// resolve_all
+//   .then((values) => {
+//     console.log("All resolved:", values)
+//   })
+//   .catch((err) => {
+//     console.log("One of the promises rejected:", err)
+//   })
+
+
+async function HandleAllPromise(){
+  try {
+    const results = await Promise.all([p1, p2, p3])
+    console.log(results)
+  } catch (error) {
+    console.log("One of the promises rejected:", error)
   }
 }
 
-const counter = outer()
-
-console.log(counter())
-console.log(counter())
-console.log(counter())
-console.log(counter())
-console.log(counter())
-console.log(counter())
-console.log(counter())
+HandleAllPromise()
