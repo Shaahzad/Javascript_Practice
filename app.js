@@ -2377,14 +2377,18 @@
 // const c = 3;
 // }
 
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
 // Variables()
 
 
-if (true) {
-  var a = 1;
-  let b = 2;
-  const c = 3;
-}
+// if (true) {
+//   var a = 1;
+//   let b = 2;
+//   const c = 3;
+// }
 
 // console.log(a)
 // console.log(b)
@@ -2411,25 +2415,27 @@ if (true) {
 
 
 
-const p1 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Hi 1")
-  }, 1000)
-})
+// const p1 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("Hi 1")
+//   }, 1000)
+// })
 
-const p2 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    // resolve("Hi 2")
-    reject("hi 2")
-  }, 3000)
-})
+// const p2 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     // resolve("Hi 2")
+//     reject("hi 2")
+//   }, 3000)
+// })
 
-const p3 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Hi 3")
-    // reject("Hi 3")
-  }, 5000)
-})
+// const p3 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("Hi 3")
+//     // reject("Hi 3")
+//   }, 5000)
+// })
+
+
 
 // const res1 = p1.then((value) => {
 //   console.log(value)
@@ -2453,13 +2459,90 @@ const p3 = new Promise((resolve, reject) => {
 //   })
 
 
-async function HandleAllPromise(){
-  try {
-    const results = await Promise.all([p1, p2, p3])
-    console.log(results)
-  } catch (error) {
-    console.log("One of the promises rejected:", error)
-  }
-}
+// async function HandleAllPromise(){
+//   try {
+//     const results = await Promise.all([p1, p2, p3])
+//     console.log(results)
+//   } catch (error) {
+//     console.log("One of the promises rejected:", error)
+//   }
+// }
 
-HandleAllPromise()
+// HandleAllPromise()
+
+// function flatten(arr) {
+
+//   // let result = []
+
+//   // for (let i = 0; i < arr.length; i++) {
+
+//   //   if (Array.isArray(arr[i])) {
+//   //     result = result.concat(flatten(arr[i]))
+//   //   }
+//   //   else{
+//   //     result.push(arr[i])
+//   //   }
+//   // }
+//   //   return result
+// }
+
+// const res = flatten([1, [2, [3, 4], 5]]) // [1, 2, 3, 4, 5]
+
+// console.log(res)
+
+
+// const flatten = (ary) => ary.reduce((a, b) => 
+//   a.concat(Array.isArray(b) ? flatten(b) : b), 
+//   [])
+
+// console.log(flatten([1, [2, [3, 4], 5]]))
+
+// console.log(a); // undefined
+// var a = 10;
+
+// (function () {
+//   console.log(b);
+//   let b = 20;
+// })();
+
+// function accessoutside() {
+//   var b = 20;
+//   let c = 20;
+//   const d = 30;
+// };
+
+// // console.log(b)
+// console.log(c)
+// console.log(d)
+// accessoutside()
+
+
+// {
+//   var b = 20;
+//   let c = 20;
+//   const d = 30;
+// }
+
+// console.log(b)
+// console.log(c)
+// console.log(d)
+
+// Explain closures with a real-world use case.
+// Hint: Private variables, factory functions, memoization.
+
+
+// function outer(){
+//   let count = 0;
+
+// return function inner(){
+//   count++
+//   console.log(count)
+// }
+// }
+
+
+// const counter = outer()
+
+// counter()
+// counter()
+// counter()
