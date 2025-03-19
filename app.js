@@ -2546,3 +2546,30 @@
 // counter()
 // counter()
 // counter()
+
+
+
+// Intersection of Two Arrays
+
+// const nums1 = [1,2,2,1]
+// const nums2 = [2,2]
+
+// const Intersection = nums1.filter(value => nums2.includes(value))
+// console.log(new Set(Intersection))
+
+// Union of Two Arrays
+
+// const nums1 = [1,2,3]
+// const nums2 = [3,4,5]
+
+// const Union = [...new Set([...nums1, ...nums2])]
+// console.log(Union)
+
+// Intersection of Two Arrays II
+
+// const nums1 = [1,2,2,1]
+// const nums2 = [2,2]
+
+// const Intersection = nums1.filter(value => nums2.includes(value))
+// console.log(Intersection)
+
