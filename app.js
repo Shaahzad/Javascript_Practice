@@ -1957,13 +1957,13 @@
 
 // Q128
 
-// const name = 'Lydia Hallie';
+// const Name = 'Lydia Hallie';
 // const age = 21;
 
-// console.log(Number.isNaN(name));
+// console.log(Number.isNaN(Name));
 // console.log(Number.isNaN(age));
 
-// console.log(isNaN(name));
+// console.log(isNaN(Name));
 // console.log(isNaN(age));
 
 
@@ -2571,5 +2571,15 @@
 // const nums2 = [2,2]
 
 // const Intersection = nums1.filter(value => nums2.includes(value))
-// console.log(Intersection)
+// console.log(new Set(Intersection))
+
+// const arr1 = [1,2,3]
+// const arr2 = [3,4,5]
+
+// function RemoveDuplicates (num1,num2){
+//   return new Set([...num1,...num2])
+// }
+// const result = RemoveDuplicates(arr1,arr2)
+// console.log(result)
+
 

@@ -6,81 +6,10 @@
     <title>Javascript</title>
     <script src="./app.js"></script>
 </head>
-<!-- <style>
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .row{
-      border: 1px solid black;
-      height: 100px;
-      width: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 40px;
-      font-family:'Times New Roman', Times, serif;
-}
-.col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.heading{
-    margin-bottom: 0px;
- </style> 
-} -->
-<!-- <style>
-    ul li::marker{
-        color: red;
-    }
-    li::first-letter{
-        color: red;
-    }
-    li:nth-child(1){
-        color: blue;
-    }
-    li::before{
-        content: "🍎";
-    }
-    li::after{
-        content: "🍌";
-    }
-</style> -->
 
-<!-- <style>
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-</style> -->
+  
 
-<!-- <style>
-    .grid-container{
-        display: grid;
-        grid-template-columns:1fr 3fr;
-        grid-template-rows: auto 1fr auto;
-        gap: 10px 10px;
-    }
-    .grid-container > *{
-        background-color: aquamarine;
-        padding: 10px;
-        border-radius: 10px;
-    }
-</style> -->
-<!-- <style>
+
     #container{
         display: flex;
         align-items: center;
@@ -117,8 +46,9 @@ HTML forms kya hote hain aur unhe kaise create kiya jata hai? Kisi form ka basic
 Hyperlinks kaise banate hain HTML mein?
 HTML attributes kya hote hain? Koi 3 commonly used attributes ke examples dijiye.
 Aap kaise ek image insert karenge HTML page mein? Syntax kya hoga?
-HTML5 mein semantic elements kya hote hain? Kuch examples dijiye. -->
-    <!-- <div id="parent">
+HTML5 mein semantic elements kya hote hain? Kuch examples dijiye.  -->
+
+     <!-- <div id="parent" style="border: 1px solid black; padding: 10px;">
         <button id="child">Click me!</button>
       </div>
       
@@ -129,7 +59,7 @@ HTML5 mein semantic elements kya hote hain? Kuch examples dijiye. -->
       
         document.getElementById('child').addEventListener('click', function(event) {
           alert('Button clicked');
-        //   event.stopPropagation();
+          event.stopPropagation();
         });
       </script> -->
       
@@ -137,13 +67,50 @@ HTML5 mein semantic elements kya hote hain? Kuch examples dijiye. -->
     <!-- <div id="container">
         <h1 id="colorName"></h1>
         <button id="changeColor" onclick="changeColor()">Change Color</button>
-    </div> -->
+    </div>
+
+
+    <script>
+ var arr = ["red", "green", "blue", "yellow", "pink", "purple", "orange"];
+let colorName = document.getElementById("colorName");
+
+    function changeColor(){
+    let createRandomColor = Math.floor(Math.random() * arr.length);
+    colorName.style.color = 'black';
+    colorName.style.fontSize = '50px';
+    colorName.innerHTML = arr[createRandomColor];
+    document.body.style.backgroundColor = arr[createRandomColor];
+}
+</script> -->
 
    <!-- <div id="container">
        <button id="btnplus" onclick="increment()">Plus</button>
        <h1 id="value"></h1>
        <button id="btnminus" onclick="decrement()">Minus</button>
-   </div> -->
+   </div>
+
+   <script>
+let val = 0;
+var btnplus = document.getElementById('btnplus')
+var btnminus = document.getElementById('btnminus')
+var value = document.getElementById('value')
+
+    function increment(){
+    val++;
+    value.innerHTML = val;
+}
+
+
+function decrement(){
+ val--;
+ if(val < 0){
+     val = 0
+ }
+value.innerHTML = val;
+
+}
+
+   </script> -->
     <!-- <div class="grid-container">
         <head>header</head>
          <menu>Menu</menu>
@@ -447,13 +414,6 @@ HTML5 mein semantic elements kya hote hain? Kuch examples dijiye. -->
 // let colorName = document.getElementById("colorName");
 
 
-// function changeColor(){
-//     let createRandomColor = Math.floor(Math.random() * arr.length);
-//     colorName.style.color = 'black';
-//     colorName.style.fontSize = '50px';
-//     colorName.innerHTML = arr[createRandomColor];
-//     document.body.style.backgroundColor = arr[createRandomColor];
-// }
 
 
 
