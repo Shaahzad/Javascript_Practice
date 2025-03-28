@@ -2594,3 +2594,78 @@
 // })
 
 // console.log("End")
+
+
+// var a = 50
+
+
+// const obj = {
+//   firstName: "shahzad",
+//   getName: function() {
+//     console.log(this.firstName)
+//      console.log(this.a)
+//   }
+// }
+
+// obj.getName()
+
+
+
+// x = 5
+
+// console.log(x)
+
+"use strict"
+
+// console.log(this)
+
+// function Hi() {
+//   console.log(this)
+// }
+// Hi.call(window)
+
+// console.log(1 + "1");  
+// console.log(1 - "1");  
+// console.log(1 + +"1");
+
+
+// let a = {};
+// let b = a;
+// console.log(a == b, a === b);
+// b.name = "JavaScript";
+// console.log(a.name);
+// console.log(b.name);
+
+
+// const arr = [1, 2, 2, 3, 4, 4, 5];
+
+// const uniqueArr = [...new Set(arr)];
+
+// console.log(uniqueArr); // [1, 2, 3, 4, 5]
+
+
+// var x = 10;
+// (function() {
+//    console.log(x);
+//    var x = 20;
+//    console.log(x);
+// })();
+
+
+// console.log(0.1 + 0.2 === 0.3);
+
+
+// function outer() {
+//   var count = 0;
+//   return function inner() {
+//       count++;
+//       console.log(count);
+//   };
+// }
+// const counter = outer();
+// counter();
+// counter();
+
+
+// console.log(typeof NaN);
+// console.log(NaN == NaN);
