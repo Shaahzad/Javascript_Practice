@@ -2669,3 +2669,33 @@
 
 // console.log(typeof NaN);
 // console.log(NaN == NaN);
+
+const arr = [1,2,3,4]
+
+// arr.forEach((item,index) => {
+//   console.log(item,index)
+//   arr.push(item + 1)
+//   console.log("?????",arr)
+// })
+
+// const Maparr = arr.map((item)=>{
+//   return item + 1
+// })
+
+// console.log(Maparr)
+// console.log(arr)
+
+
+// const Filterarr = arr.filter((item)=>{
+//   return item > 2
+// })
+
+// console.log(Filterarr)
+// console.log(arr)
+
+// const find = arr.find((item)=>{
+//   return item > 2
+// })
+
+// console.log(find)
+// console.log(arr)
