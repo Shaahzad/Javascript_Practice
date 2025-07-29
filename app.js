@@ -2670,7 +2670,7 @@
 // console.log(typeof NaN);
 // console.log(NaN == NaN);
 
-const arr = [1,2,3,4]
+const arr = [1, 2, 3, 4]
 
 // arr.forEach((item,index) => {
 //   console.log(item,index)
@@ -2699,3 +2699,30 @@ const arr = [1,2,3,4]
 
 // console.log(find)
 // console.log(arr)
+
+
+
+// function reversestring(str) {
+// return str.split("").reverse(0).join("")
+// }
+
+// console.log(reversestring("shahzad"))
+
+
+// find max of arr
+
+// function Maxarr(maxarr){
+
+// }
+
+// console.log(Maxarr([1,2,3,4,5,6,7,8,9,10])) 
+
+// let score = "33abc"
+
+// const convert = Number(score)
+// console.log(typeof score)
+// console.log(typeof convert)
+// console.log(convert)
+
+// console.log(true)
+console.log((2 * 5) + 5 % 2)
