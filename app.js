@@ -2725,4 +2725,10 @@ const arr = [1, 2, 3, 4]
 // console.log(convert)
 
 // console.log(true)
-console.log((2 * 5) + 5 % 2)
+// console.log((2 * 5) + 5 % 2)
+
+// console.log(null === undefined)
+// console.log(null == undefined)
+// console.log(typeof null)
+// console.log(typeof undefined)
+
