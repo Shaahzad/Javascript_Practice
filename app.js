@@ -2732,3 +2732,42 @@ const arr = [1, 2, 3, 4]
 // console.log(typeof null)
 // console.log(typeof undefined)
 
+const input = document.getElementById("todo-input")
+const btn = document.getElementById("add-btn")
+const list = document.getElementById("todo-list")
+
+const savedTodo = localStorage.getItem("todos")
+const getTodo = savedTodo ? JSON.parse(savedTodo) : []
+
+
+function SaveTodos() {
+localStorage.setItem('Todos', JSON.stringify(getTodo))
+}
+
+function createTodoNode(todo, index){
+const li = document.createElement('li')
+
+const checkBox = document.createElement("input")
+checkBox.type = 'checkbox';
+checkBox.checked  = !!getTodo.completed
+
+savedTodo()
+
+
+const textspan = document.createElement('span')
+textspan.textContent = getTodo.text
+textspan.style.margin = '0 8px'
+if(getTodo.completed){
+  textspan.style.textDecoration = 'line-through'
+}
+
+}
+
+function render(){
+  list.innerHTML = ''
+
+  getTodo.forEach((element, index) => {
+    const node = createTodoNode(element, index)
+    list.appendChild(node)
+  });
+}
