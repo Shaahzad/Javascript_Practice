@@ -2670,7 +2670,7 @@
 // console.log(typeof NaN);
 // console.log(NaN == NaN);
 
-const arr = [1, 2, 3, 4]
+// const arr = [1, 2, 3, 4]
 
 // arr.forEach((item,index) => {
 //   console.log(item,index)
@@ -2732,42 +2732,74 @@ const arr = [1, 2, 3, 4]
 // console.log(typeof null)
 // console.log(typeof undefined)
 
-const input = document.getElementById("todo-input")
-const btn = document.getElementById("add-btn")
-const list = document.getElementById("todo-list")
+// const input = document.getElementById("todo-input")
+// const btn = document.getElementById("add-btn")
+// const list = document.getElementById("todo-list")
 
-const savedTodo = localStorage.getItem("todos")
-const getTodo = savedTodo ? JSON.parse(savedTodo) : []
-
-
-function SaveTodos() {
-localStorage.setItem('Todos', JSON.stringify(getTodo))
-}
-
-function createTodoNode(todo, index){
-const li = document.createElement('li')
-
-const checkBox = document.createElement("input")
-checkBox.type = 'checkbox';
-checkBox.checked  = !!getTodo.completed
-
-savedTodo()
+// const savedTodo = localStorage.getItem("todos")
+// const getTodo = savedTodo ? JSON.parse(savedTodo) : []
 
 
-const textspan = document.createElement('span')
-textspan.textContent = getTodo.text
-textspan.style.margin = '0 8px'
-if(getTodo.completed){
-  textspan.style.textDecoration = 'line-through'
-}
+// function SaveTodos() {
+// localStorage.setItem('Todos', JSON.stringify(getTodo))
+// }
 
-}
+// function createTodoNode(todo, index){
+// const li = document.createElement('li')
 
-function render(){
-  list.innerHTML = ''
+// const checkBox = document.createElement("input")
+// checkBox.type = 'checkbox';
+// checkBox.checked  = !!getTodo.completed
 
-  getTodo.forEach((element, index) => {
-    const node = createTodoNode(element, index)
-    list.appendChild(node)
-  });
-}
+// savedTodo()
+
+
+// const textspan = document.createElement('span')
+// textspan.textContent = getTodo.text
+// textspan.style.margin = '0 8px'
+// if(getTodo.completed){
+//   textspan.style.textDecoration = 'line-through'
+// }
+
+// }
+
+// function render(){
+//   list.innerHTML = ''
+
+//   getTodo.forEach((element, index) => {
+//     const node = createTodoNode(element, index)
+//     list.appendChild(node)
+//   });
+// }
+
+
+// function Scope() {
+//   // var a = 40
+//   // let b = 20
+//   // const c = 20
+// }
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// Scope()
+
+// let a = 200
+// if (true) {
+// var a = 20
+// }
+// console.log(a);
+// // console.log(b);
+// // console.log(c);
+
+// var a = 20
+// a = 200
+// console.log(a);
+
+// let a = 20
+// a = 200
+// console.log(a);
+
+// const a = 20
+// a = 200
+// console.log(a);
