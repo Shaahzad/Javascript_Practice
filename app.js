@@ -2803,3 +2803,21 @@
 // const a = 20
 // a = 200
 // console.log(a);
+
+
+// const arr = [1,2,3,4,5,6]
+
+// const modifyarr = arr.map((val)=>{
+// return val > 1
+// })
+
+// const filterarr = arr.filter((val)=>{
+// return val < 4
+// })
+
+// const Reducerarr = arr.reduce((curr, acc)=>{
+// return acc + curr
+// }, 0)
+
+
+// console.log(Reducerarr);
