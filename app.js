@@ -2821,3 +2821,49 @@
 
 
 // console.log(Reducerarr);
+
+// let longestSubstring = 'GeeksForGeeks'
+
+// function longSubStr(str) {
+//   let start = 0;
+//   let end = 0;
+//   let maxlength = 0;
+//   let Substr = new Set()
+
+//   while (end < str.length) {
+//     if(!Substr.has(str[end])){
+//       Substr.add(str[end])
+//       maxlength = Math.max(maxlength, Substr.size)
+//       console.log(Substr.values())
+//       end++
+//     }else{
+//       Substr.delete(str[start])
+//       start++
+//     }
+//   }
+//   return maxlength
+// }
+
+// console.log(longSubStr(longestSubstring))
+
+// write a function that return the largets number in a given array
+
+// const arr = [1, 2, 3, 4, 50, 6, 7, 80, 9, 10]
+
+// function largestNumber(array) {
+//   // return array.reduce((max, current) => {
+//   //   return current > max ? current : max;
+//   // },0);
+
+//   let Max = array[0]
+//   for (let index = 1; index < array.length; index++) {
+//     if (array[index] > Max) {
+//       console.log(array[index], Max);
+//       Max = array[index]
+//     }
+//   }
+//   return Max
+// }
+
+// console.log(largestNumber(arr));
+// // largestNumber(arr)/
