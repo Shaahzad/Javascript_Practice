@@ -3049,15 +3049,47 @@
 
 
 
-const arr = [2, 3, 2, 5, 6, 2, 3];
+// const arr = [2, 3, 2, 5, 6, 2, 3];
 
-let obj = {};
-for (let i = 0; i < arr.length; i++) {
-  if(obj[arr[i]]){
-    obj[arr[i]] += 1
-  } else {
-    obj[arr[i]] = 1
-  }
-}
+// let obj = {};
+// for (let i = 0; i < arr.length; i++) {
+//   if(obj[arr[i]]){
+//     obj[arr[i]] += 1
+//   } else {
+//     obj[arr[i]] = 1
+//   }
+// }
 
-console.log(obj)
+// console.log(obj)
+
+// const nums = [1, 2, 2, 3, 4, 4, 5];
+
+// const RemoveDuplicates = new Set(nums)
+// console.log(RemoveDuplicates)
+
+
+// Q3: Find which number appears most often.
+// const arr = [1, 3, 3, 2, 3, 1, 1, 1, 2];
+
+// let obj = {};
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (obj[arr[i]]) {
+//     obj[arr[i]] += 1;
+//   } else {
+//     obj[arr[i]] = 1;
+//   } 
+// }
+// console.log(obj);
+
+// let maxCount = 0;
+// let mostFrequentNum = null;
+
+// for (let num in obj) {
+//   if (obj[num] > maxCount) {
+//     maxCount = obj[num];
+//     mostFrequentNum = num;
+// }
+// }
+
+// console.log(`The number that appears most often is ${mostFrequentNum} (appears ${maxCount} times).`);   
