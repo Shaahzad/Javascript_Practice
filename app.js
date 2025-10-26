@@ -2867,3 +2867,123 @@
 
 // console.log(largestNumber(arr));
 // // largestNumber(arr)/
+
+// var Sum = function(a) {
+//   console.log(a)
+//   var c = 4;
+//    return function(b) {
+//      console.log(b)
+//      return a + b + c;
+//    }
+// }
+
+// var add5 = Sum(5);
+// console.log(add5(3));
+
+
+// var Sum  = function(a,b,c) {
+// return {
+//   getSumTwo: function() {
+//     return a + b
+//   },
+//   getSumThree: function() {
+//     return a + b + c
+//   }
+// }
+// }
+
+// var add = Sum(5,3,2);
+// console.log(add.getSumTwo());
+// console.log(add.getSumThree());
+
+
+// give me some logical interview questions for javascript developers.
+
+// Sure! Here are some logical interview questions for JavaScript developers:
+
+// 1. What is the difference between == and === in JavaScript?
+
+// 2. How does JavaScript handle asynchronous operations? Can you explain the event loop?
+
+// 3. What are closures in JavaScript? Can you provide an example of how they work?
+
+// 4. What is hoisting in JavaScript? How does it affect variable and function declarations?
+
+// 5. Can you explain the concept of prototypal inheritance in JavaScript?
+
+// 6. What are promises in JavaScript? How do they help with asynchronous programming?
+
+// 7. What is the difference between var, let, and const in JavaScript?
+
+// 8. How does the 'this' keyword work in JavaScript? Can you provide examples of its behavior in different contexts?
+
+// 9. What are higher-order functions in JavaScript? Can you give an example? 
+
+// 10. How would you implement memoization in JavaScript? Can you provide a code example?
+
+// 11. What is the difference between call, apply, and bind methods in JavaScript?
+
+// 12. Can you explain the concept of event delegation in JavaScript?
+
+// 13. How do you handle errors in JavaScript? Can you explain try-catch-finally? 
+
+// 14. What are the different ways to create objects in JavaScript?
+
+// 15. Can you explain the concept of currying in JavaScript? Can you provide an example? 
+
+// 16. What is the difference between synchronous and asynchronous code in JavaScript?
+
+// 17. How would you optimize the performance of a JavaScript application?  
+
+// 18. Can you explain the concept of debouncing and throttling in JavaScript?
+
+// 19. What are modules in JavaScript? How do they help in organizing code? 
+
+// 20. Can you explain the concept of event bubbling and event capturing in JavaScript?
+
+// 21. How does garbage collection work in JavaScript?
+
+// 22. What are the different data types in JavaScript?
+
+// 23. Can you explain the concept of immutability in JavaScript? How can you achieve it?
+
+// 24. What is the difference between null and undefined in JavaScript?
+
+// 25. How would you implement a debounce function in JavaScript? Can you provide a code example?
+
+// 26. What are generators in JavaScript? How do they differ from regular functions?
+
+// 27. Can you explain the concept of the prototype chain in JavaScript?
+
+// 28. How would you implement a deep clone of an object in JavaScript? Can you provide a code example?
+
+// 29. What is the difference between a shallow copy and a deep copy in JavaScript?
+
+// 30. Can you explain the concept of functional programming in JavaScript?
+
+// 31. How does the spread operator work in JavaScript? Can you provide examples of its usage?
+
+// 32. What are the different ways to iterate over an array in JavaScript?
+
+// 33. Can you explain the concept of async/await in JavaScript? How does it improve code readability?
+
+// 34. What is the difference between a callback function and a promise in JavaScript?
+
+// =========  The end ==========
+
+// function findMax(arr) {
+//   let max = arr[0];
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// 
+
+// const result = findMax([1, 3, 2, 8, 5]);
+// console.log(result); // Output: 8}
+
+
+// console.log([] == ![])
+// console.log('5' + 3 - 2);
