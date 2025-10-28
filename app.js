@@ -3093,3 +3093,97 @@
 // }
 
 // console.log(`The number that appears most often is ${mostFrequentNum} (appears ${maxCount} times).`);   
+
+// Q4: Reverse the words, not the characters.
+// const str = "hello world from js";
+
+// function ReverseStr(string) {
+//  const reverseWord = string.split(" ").reverse().join(" ")
+//  console.log(reverseWord)  
+// }
+
+
+// ReverseStr(str)
+
+
+
+// Q6: Check if string reads same backward.
+// const str = "madam";
+
+// function isPalindrome(string) {
+//   const reversedStr = string.split("").reverse().join("");
+//   return string === reversedStr;
+// }
+// console.log(isPalindrome(str));
+
+
+// find longest substring without repeating characters
+// const str = "abcabcbb";
+
+// function longestSubstring(string) {
+//   let start = 0;
+//   let end = 0;
+//   let maxLength = 0;
+//   let charSet = new Set();
+
+//   while (end < string.length) {
+//     if (!charSet.has(string[end])) {
+//       charSet.add(string[end]);
+//       maxLength = Math.max(maxLength, charSet.size);
+//       end++;
+//     } else {
+//       charSet.delete(string[start]);
+//       start++;
+//     }
+// }
+//   return maxLength;
+// }
+
+// console.log(longestSubstring(str));
+
+// Q5: Find the second largest number.
+// const arr = [10, 5, 20, 8, 20, 3];
+
+// let highest = -Infinity;
+// let secondHighest = -Infinity;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] > highest) {
+//     secondHighest = highest;
+//     highest = arr[i];
+//   }
+// }
+
+// console.log(`The largest & second largest number is ${highest} ${secondHighest}.`);
+
+
+// Q7: Merge and remove duplicates, then sort.
+// const a = [3, 1, 4];
+// const b = [4, 5, 6, 3];
+
+// function mergeAndSort(arr1, arr2) {
+// const merge = [...arr1, ...arr2];
+// const unique = [...new Set(merge)];
+// unique.sort((x, y) => x - y);
+// return unique;
+// }
+
+// const result = mergeAndSort(a, b);
+// console.log(result); 
+
+
+// Q8: Count vowels (a, e, i, o, u).
+// const str = "JavaScript";
+
+// function CountVowels(string) {
+// const vovels = "aeiouAEIOU";
+// let count = 0;
+// for (let char of string) {
+//   if (vovels.includes(char)) {
+//     count++;
+//   }
+// }
+// return count;
+// }
+// const result = CountVowels(str)
+// console.log(result) 
