@@ -3187,3 +3187,56 @@
 // }
 // const result = CountVowels(str)
 // console.log(result) 
+
+
+
+// const str = "Hello World"
+// function CountVovels(string) {
+//   const vovels = "aeiouAEIOU"
+//   let count = 0;
+//   for (const char of string) {
+//     if (vovels.includes(char)) {
+//       count++
+//     }
+//   }
+//   return count
+// }
+
+// const s = CountVovels(str)
+
+// console.log(s)
+
+// Q9: One number is missing from sequence 1–10.
+// const arr = [1,2,3,4,5,7,8,9,10];
+
+
+// function findMissingNumber(arr) {
+//   const n = 10;
+//   const expectedSum = (n * (n + 1)) / 2;
+//   console.log(expectedSum);
+//   const actualSum = arr.reduce((acc, num) => acc + num, 0);
+//   console.log(actualSum);
+//   return expectedSum - actualSum;
+// }
+
+// const result = findMissingNumber(arr);
+// console.log(result);
+
+
+
+
+// Q9: One number is missing from sequence 1–10.
+// const arr = [1,2,3,4,6];
+
+
+
+// function FindMissingNumber(arr) {
+// const n = arr.length + 1;
+// const expectedSum = (n * (n + 1)) / 2;
+// const actualSum = arr.reduce((acc, num)=> acc + num, 0)
+// return expectedSum - actualSum
+// }
+
+
+// const result = FindMissingNumber(arr)
+// console.log(result);
