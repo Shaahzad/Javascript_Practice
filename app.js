@@ -3240,3 +3240,28 @@
 
 // const result = FindMissingNumber(arr)
 // console.log(result);
+
+// Q10: Flatten nested array completely.
+// const arr = [1, [2, [3, 4]], 5];
+
+// function Flatenarray(arr){
+// const result = arr.flat(2)
+// return result
+// }
+
+// const result = Flatenarray(arr)
+// console.log(result);
+
+// Remove duplicates without using Set
+// const arr = [1,2,2,3,4,4,5]
+// function removeDuplicates(arr) {
+//   const uniqueArr = [];
+//   for (let index = 0; index < arr.length; index++) {
+//     if (!uniqueArr.includes(arr[index])) {
+//       uniqueArr.push(arr[index]);
+//     }
+// }
+//   return uniqueArr;
+// }
+// const result = removeDuplicates(arr)
+// console.log(result);
