@@ -3265,3 +3265,44 @@
 // }
 // const result = removeDuplicates(arr)
 // console.log(result);
+//Find missing number from 1 to n
+// const arr = [2,3,4,5]
+
+
+// function findMissingNumber(val) {
+// let n = arr.length + 1;
+// let expectedSum = (n * (n + 1)) / 2 //15
+// let executeValue = val.reduce((acc, curr)=> acc + curr, 0) //12
+// return expectedSum - executeValue
+// }
+
+
+// const result = findMissingNumber(arr)
+// console.log(result);
+
+// Count vowels in a string
+// const str = "JavaScript"
+
+// function countVowels(string) {
+// const vowels = 'aeiouAEIOU'
+// let count = 0;
+// for (const char of string) {
+//   if(vowels.includes(char)){
+//     count++
+//   }
+// }
+// return count
+// }
+
+// const result = countVowels(str)
+// console.log(result);
+
+//Reverse a string without using reverse()
+const str = "hello"
+
+function ReverseStr(String) {
+
+}
+
+const result = ReverseStr(str)
+console.log(result);
