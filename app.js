@@ -3298,11 +3298,39 @@
 // console.log(result);
 
 //Reverse a string without using reverse()
-const str = "hello"
+// const str = "hello"
 
-function ReverseStr(String) {
+// function ReverseStr(String) {
 
-}
+// }
 
-const result = ReverseStr(str)
-console.log(result);
+// const result = ReverseStr(str)
+// console.log(result);
+
+// let a = [1,2,3];
+// let b = a;
+// b.push(4);
+// console.log(a);
+// console.log(typeof null);
+// console.log(0.1 + 0.2 === 0.3);
+
+// const arr = [1,2,3,1,4,1,2]
+// let obj = {};
+
+// for (let index = 0; index < arr.length; index++) {
+//   if(obj[arr[index]]){
+//     obj[arr[index]] += 1
+//   }else{
+//         obj[arr[index]] = 1
+//   }
+// }
+// let maxCount = 0;
+// let mostFrequentNum = null;
+
+// for (let num in obj) {
+//   if (obj[num] > maxCount) {
+//     maxCount = obj[num];
+//     mostFrequentNum = num;
+// }
+// }
+// console.log(`The number that appears most often is ${mostFrequentNum} (appears ${maxCount} times).`);   
