@@ -8,9 +8,23 @@
 </head>
 
   
-
-
+<h1 style="text-align: center;">Our Menu</h1>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px">
+    <button onclick="menu()" style="padding: 6px 12px;">
+All
+    </button>
+    <button onclick="menu('Breakfast')" style="padding: 6px 12px;">
+BreakFast
+    </button>
+    <button onclick="menu('Lunch')" style="padding: 6px 12px;">
+Lunch
+    </button>
+    <button onclick="menu('Shakes')" style="padding: 6px 12px;">
+Shakes
+    </button>
+</div>
   
+   <div style="display: flex; margin-top: 16px; gap: 6px; flex-wrap: wrap;" id="main-container"></div> 
  <body>
 </body>
 <script src="app.js"></script>
