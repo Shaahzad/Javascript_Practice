@@ -3336,80 +3336,95 @@
 // console.log(`The number that appears most often is ${mostFrequentNum} (appears ${maxCount} times).`);   
 
 
-const menuData = [
-  {
-    title: "Biryani",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Lunch"
-  },
-  {
-    title: "Korma",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Lunch"
-  },
-  {
-    title: "Daal Chawal",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Lunch"
-  },
-  {
-    title: "Halwa Puri",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Breakfast"
-  },
-  {
-    title: "Anda Paratha",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Breakfast"
-  },
-  {
-    title: "Milk Shake",
-    price: 200,
-    Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
-    img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
-    category: "Shakes"
-  },
-]
-window.onload = () => {
-  menu();
-}
+// const menuData = [
+//   {
+//     title: "Biryani",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Lunch"
+//   },
+//   {
+//     title: "Korma",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Lunch"
+//   },
+//   {
+//     title: "Daal Chawal",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Lunch"
+//   },
+//   {
+//     title: "Halwa Puri",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Breakfast"
+//   },
+//   {
+//     title: "Anda Paratha",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Breakfast"
+//   },
+//   {
+//     title: "Milk Shake",
+//     price: 200,
+//     Description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, doloremque?",
+//     img: "https://i.ytimg.com/vi/XOFqB3cB7To/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASvHRRBUSEjlyWoBidH553BUM6Aw",
+//     category: "Shakes"
+//   },
+// ]
+// window.onload = () => {
+//   menu();
+// }
 
-menu()
+// menu()
 
-function menu(category) {
-  const MenuCardHtml = menuData.filter((menu) => {
-    if (category) {
-      return menu.category.toLowerCase() == category.toLowerCase()
-    } else {
-      return true
-    }
-  }).map((menu) => {
-    const HTMLCard = `<div style="display: flex; justify-content: center; gap: 8px; width:48%;">
-    <img height="200" width="300" src=${menu.img} alt="">
-    <div style="display: flex; flex-direction: column; gap: 0px">
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <h4>${menu.title}</h4>
-            <span>${menu.price}</span>
-        </div>
-        <span>${menu.Description}</span>
-    </div>
-</div>
-`
-    return HTMLCard
-  })
+// function menu(category) {
+//   const MenuCardHtml = menuData.filter((menu) => {
+//     if (category) {
+//       return menu.category.toLowerCase() == category.toLowerCase()
+//     } else {
+//       return true
+//     }
+//   }).map((menu) => {
+//     const HTMLCard = `<div style="display: flex; justify-content: center; gap: 8px; width:48%;">
+//     <img height="200" width="300" src=${menu.img} alt="">
+//     <div style="display: flex; flex-direction: column; gap: 0px">
+//         <div style="display: flex; justify-content: space-between; align-items: center;">
+//             <h4>${menu.title}</h4>
+//             <span>${menu.price}</span>
+//         </div>
+//         <span>${menu.Description}</span>
+//     </div>
+// </div>
+// `
+//     return HTMLCard
+//   })
 
-  document.querySelector("#main-container").innerHTML = MenuCardHtml.join(" ")
-}
+//   document.querySelector("#main-container").innerHTML = MenuCardHtml.join(" ")
+// }
 
 
 
+// const arr = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+
+// function SumZeroPair(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     console.log("outer", i);
+//     for (let j = i + 1; j < array.length; j++) {
+//       console.log("inner", j);
+//       if (arr[i] + arr[j] === 0) {
+//         return [arr[i], arr[j]]
+//       }
+//     }
+//   }
+// }
+
+// console.log(SumZeroPair(arr))
