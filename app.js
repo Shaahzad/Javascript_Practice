@@ -3428,3 +3428,25 @@
 // }
 
 // console.log(SumZeroPair(arr))
+
+
+// function Anagram(string1, string2) {
+// if(string1.length !== string2.length){
+//     return false
+//   }
+
+//   let count = {};
+//   for (const letter of string1) {
+//     count[letter]  = (count[letter] || 0) + 1;
+// }
+// for (const items of string2) {
+//   if(!count[items]){
+//     return false
+//   }
+//   count[items] -= 1
+// }
+// return true
+// }
+
+// const check = Anagram("hello", "llheo")
+// console.log(check);
