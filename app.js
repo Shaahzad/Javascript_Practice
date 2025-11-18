@@ -3450,3 +3450,41 @@
 
 // const check = Anagram("hello", "llheo")
 // console.log(check);
+
+
+
+// for (let i = 1; i <= 15; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) console.log("FizzBuzz");
+//   else if (i % 3 === 0) console.log("Fizz");
+//   else if (i % 5 === 0) console.log("Buzz");
+//   else console.log(i);
+// }
+
+// function findDuplicate(arr) {
+//   let seen = new Set();
+//   let dup = [];
+
+//   for (let num of arr) {
+//     if (seen.has(num)) dup.push(num);
+//     else seen.add(num);
+//   }
+
+//   return dup;
+// }
+
+// console.log(findDuplicate([1,2,3,2,4,1])); // [2,1]
+
+// Find Largest Number in Array
+
+// function largestNumber(arr) {
+//   let largest = arr[0];
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       largest = arr[i];
+//     }
+//   }
+//   return largest
+// }
+
+
+// console.log(largestNumber([1,2,9,10]))
