@@ -3518,3 +3518,24 @@
 // }
 
 // console.log(largestNumberInArray(arr))
+
+// const User = {
+//   name: "Shahzad",
+//   email: "shahzad@gmail.com"
+// }
+
+// const student = User
+
+// student.email = "Memon@gmail.com"
+// console.log(User);
+// console.log(student);
+
+
+// let a = 5;
+
+// let b = a;
+
+// b = 6
+
+// console.log(a)
+// console.log(b)
