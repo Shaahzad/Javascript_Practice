@@ -3505,3 +3505,16 @@
 //     console.log(index)
 //   }
 // }
+// const arr = [1,2,3,4,5,6]
+
+// function largestNumberInArray(largnum) {
+// let array = largnum[0]
+// for (let index = 1; index < largnum.length; index++) {
+//   if(largnum[index] > array) {
+//     array = largnum[index]
+//   }
+// }
+// return array
+// }
+
+// console.log(largestNumberInArray(arr))
