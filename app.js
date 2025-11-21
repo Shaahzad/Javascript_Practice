@@ -3539,3 +3539,9 @@
 
 // console.log(a)
 // console.log(b)
+
+
+// const string = 'Hello'
+
+// const reverseStr = string.split('').reverse().join('')
+// console.log(reverseStr) 
