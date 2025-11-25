@@ -3545,3 +3545,17 @@
 
 // const reverseStr = string.split('').reverse().join('')
 // console.log(reverseStr) 
+
+
+// Sum of num in array
+
+// const arr = [1,2,3,4,5,6,7,8,9,10]
+
+// function sumofArray(sumarr) {
+// let sum = 0
+// for (let index = 0; index < sumarr.length; index++) {
+//   sum += sumarr[index]
+// }
+// return sum
+// }
+// console.log(sumofArray(arr))
