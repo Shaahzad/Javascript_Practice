@@ -3559,3 +3559,48 @@
 // return sum
 // }
 // console.log(sumofArray(arr))
+
+
+
+// const products = [
+//   {
+//     ProductName: "Mobile",
+//     Quantity: 2,
+//     Price: 20000
+//   },
+//     {
+//     ProductName: "Computer",
+//     Quantity: 2,
+//     Price: 15000
+//   },
+//   {
+//     ProductName: "Laptop",
+//     Quantity: 2,
+//     Price: 12000
+//   },
+// ]
+
+// const productData = products.map((product)=>{
+// return product.Quantity * product.Price
+// })
+
+// const totalCost = productData.reduce((acc, curr)=> acc + curr, 0)
+
+// console.log(totalCost)
+
+
+// "Muhammad Shahzad" Ans "M S"
+
+// const name = "Muhammad Shahzad"
+
+// function initials(str) {
+//   const words = str.split(" ")
+//   let result = ""
+//   for (let i = 0; i < words.length; i++) {
+//     result += words[i][0].toUpperCase() + " "
+//   }
+//   return result
+// }
+
+// const result = initials(name)
+// console.log(result)
