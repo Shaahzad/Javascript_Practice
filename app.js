@@ -3604,3 +3604,131 @@
 
 // const result = initials(name)
 // console.log(result)
+
+
+
+// const name = "Muhammad Shahzad"
+// function SplitWord(Str){
+// const word = Str.split(' ')
+// let result = ''
+// for (let i = 0; i < word.length; i++) {
+//   result += word[i][0].toUpperCase() + " "
+// }
+// return result
+// }
+// const result = SplitWord(name)
+// console.log(result)
+
+
+
+// const MaxArr = [1,2,3,4,5,6,7,8,9,10,5000]
+
+// function MaxVal(val) {
+//   let MaxCount = val[0];
+//   for (let i = 0; i < val.length; i++) {
+//     if (val[i] > MaxCount) {
+//       MaxCount = val[i]
+//     }
+//   }
+//   return MaxCount
+// }
+
+// const result = MaxVal(MaxArr)
+// console.log(result)
+
+
+// const SumArr = [1,2,3,4,5,6,7,8,9,10]
+
+
+// function SumOfArray(val) {
+//   let Sum = 0;
+//   for (let i = 0; i < val.length; i++) {
+//     Sum += val[i] 
+//   }
+//   return Sum
+// }
+
+// const result = SumOfArray(SumArr)
+// console.log(result)
+
+
+// const products = [
+//   {
+//     ProductName: "Mobile",
+//     Quantity: 2,
+//     Price: 20000
+//   },
+//     {
+//     ProductName: "Computer",
+//     Quantity: 2,
+//     Price: 15000
+//   },
+//   {
+//     ProductName: "Laptop",
+//     Quantity: 2,
+//     Price: 12000
+//   },
+// ]
+
+
+// const MapData = products.map((val)=> {
+//   return val.Quantity * val.Price
+// })
+
+// const totalCost = MapData.reduce((acc, curr) => acc + curr, 0)
+// console.log(totalCost)
+
+
+// Remove Duplicates
+
+// const arr = [1,2,2,3,4,4,5]
+
+// function RemoveDuplicates(val) {
+// let uniqueValue = [];
+// for (let i = 0; i < val.length; i++) {
+//     if (!uniqueValue.includes(arr[i])) {
+//       uniqueValue.push(arr[i]);
+//     }
+// }
+// return uniqueValue
+// }
+
+// const result = RemoveDuplicates(arr)
+// console.log(result)
+
+
+// find missing number
+
+
+// const arr = [1,2,3,4,5,6,8]
+
+// function MissingNumber(val) {
+//   let n = val.length + 1;
+//   let SumVal = (n * (n + 1)) / 2
+//   let expedtedVal = val.reduce((acc, curr) => acc + curr, 0)
+//   return SumVal - expedtedVal
+// }
+
+// const result = MissingNumber(arr)
+// console.log(result)
+
+
+
+// console.log([] == ![]);
+// const val = [1, 2, 3] + [4, 5, 6]
+// console.log(typeof val);
+
+
+// let a = { x: 1 };
+// let b = a;
+// a.x = 5;
+
+// console.log(b.x);
+
+// let a = 5;
+// let b = a;
+
+// b = 10
+
+// console.log(a)
+// console.log(b)
