@@ -3732,3 +3732,22 @@
 
 // console.log(a)
 // console.log(b)
+
+
+// console.log(1 == '1');
+// console.log(true == 1);
+// console.log(false == 0);
+// console.log(null == undefined);
+// console.log(null == 0);
+
+// for (let i = 0; i < 3; i++) {
+//   setTimeout(function() {
+//     console.log(i);
+//   }, 100);
+// }
+
+
+// const a = (1, 2, 3);
+// console.log(a);
+
+
