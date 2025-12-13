@@ -3751,3 +3751,33 @@
 // console.log(a);
 
 
+// const arr = [1,2,2,3,4,4,5,7,7,8,9,9]
+
+
+// function RemoveDuplicates(val){
+//   let uniquevalue = []; 
+// for (let i = 0; i < val.length; i++) {
+//   if(!uniquevalue.includes(val[i])){
+//     uniquevalue.push(val[i])
+//   }
+//   }
+//   return uniquevalue
+// }
+
+// const result = RemoveDuplicates(arr)
+// console.log(result)
+
+
+// const arr = [1,2,3,4,6,7,8]
+
+// function findMissingNumber(val) {
+//   let n = val.length + 1
+//   let SumVal = (n * (n + 1)) / 2
+//   let expectedVal = val.reduce((acc, curr) => acc + curr, 0)
+//   return SumVal - expectedVal
+// }
+
+// const result = findMissingNumber(arr)
+// console.log(result)
+
+
