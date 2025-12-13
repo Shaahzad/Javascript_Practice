@@ -3781,3 +3781,19 @@
 // console.log(result)
 
 
+// const Name = "Muhammad Shahzad"
+
+// function SplitNameLetter(val) {
+//   const word = val.split(' ')
+//   let result = ''
+//   for (let i = 0; i < word.length; i++) {
+//     result += word[i][0].toUpperCase() + ' '
+//   }
+//   return result
+// }
+
+
+// const result = SplitNameLetter(Name)
+// console.log(result)
+
+
