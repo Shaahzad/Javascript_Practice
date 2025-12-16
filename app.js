@@ -3797,3 +3797,86 @@
 // console.log(result)
 
 
+// console.log("1");
+
+// queueMicrotask(() => console.log("2"));
+
+// Promise.resolve().then(() => console.log("3"));
+
+// console.log("4");
+
+
+// const arr = [1,2,3,4,5,6]
+
+
+// const result = arr.map((val, index)=>{
+// return val * 2
+// })
+
+// console.log(result, "map response")
+// console.log(arr, "original array")
+
+
+// const arr = [1,2,3,4,5,6]
+
+
+// const result = arr.filter((val, index)=>{
+// return val > 2
+// })
+
+// console.log(result, "filter response")
+// console.log(arr, "original array")
+
+
+// const arr = [1,2,3,4,5,6]
+
+
+// const result = arr.reduce((curr, acc)=>{
+// return curr + acc
+// }, 0)
+
+// console.log(result, "reduce response")
+// console.log(arr, "original array")
+
+
+// const Name = "Muhammad Shahzad"
+
+
+// function SplitName(val){
+// const word = val.split(' ')
+// let result = ''
+// for (let index = 0; index < word.length; index++) {
+// result += word[index][0].toUpperCase() + ' '
+// }
+// return result
+// }
+
+// const result = SplitName(Name)
+// console.log(result)
+
+
+// const arr = [1,2,3,4,5,6]
+
+
+// function findMissingNumber(val){
+//   let n = val.length + 1
+//   let SumVal = (n * (n + 1)) / 2
+//   let expectedVal = val.reduce((acc, curr) => acc + curr, 0)
+//   return SumVal - expectedVal
+// }
+
+// const result = findMissingNumber(arr)
+// console.log(result)
+
+
+
+// Remove duplicates 
+
+
+// const arr = [1,1,1,1,1,1,]
+
+
+// const removeduplicates = new Set(arr)
+// console.log(removeduplicates)
+
+
