@@ -3880,3 +3880,15 @@
 // console.log(removeduplicates)
 
 
+// const arr = [1,2,3,4,5,6]
+
+
+// const result = arr.find((val)=>{
+// return val > 2
+// })
+
+// console.log(result, "find response")
+// console.log(arr, "original array")
+
+
+
