@@ -1,16 +1,16 @@
-import express from 'express';
-import { verifytoken } from '../middleware/authentication.js';
-import { updateProject, viewProject } from '../controller/projectcontroller.js';
+// import express from 'express';
+// import { verifytoken } from '../middleware/authentication.js';
+// import { updateProject, viewProject } from '../controller/projectcontroller.js';
 
 
 
-const router = express.Router();
+// const router = express.Router();
 
 
-router.get("/:id", verifytoken, viewProject);
+// router.get("/:id", verifytoken, viewProject);
 
 
-router.put("/:id", verifytoken, updateProject);
+// router.put("/:id", verifytoken, updateProject);
 
 
-export default router
+// export default router
