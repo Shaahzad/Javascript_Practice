@@ -86,3 +86,35 @@ export const logoutController = async (req, res) => {
         res.status(500).json({ status: 500, message: "Server error" });
     }
 };
+
+export const forgotPasswordController = async (req, res) => {
+    try {
+        const { email } = req.body;
+
+        const user = await User.findOne({ email });
+
+        if (!user) {
+            return res.status(400).json({ status: 400, message: "User not found" });
+        }
+
+        const token = jwt.sign({
+            id: user._id,
+            email: user.email,
+        }, process.env.JWT_SECRET, {
+            expiresIn: "1h"
+        })
+
+        const link = `http://localhost:3000/reset-password/${token}`;
+
+        // Send email with password reset link
+        return res.status(200).json({
+            link,
+            status: 200,
+            message: "Password reset link sent to your email"
+        });
+        
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ status: 500, message: "Server error" });
+    }
+};
