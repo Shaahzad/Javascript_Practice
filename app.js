@@ -3892,3 +3892,9 @@
 
 
 
+let arr = [1,2,3,1,2,4,5,6]
+
+let result = arr.filter((value, index, array)=>{
+  return array.indexOf(value) !== index
+})
+console.log(result)
