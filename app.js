@@ -3898,3 +3898,21 @@
 //   return array.indexOf(value) !== index
 // })
 // console.log(result)
+
+
+
+// const arr = [1,2,3,400, 500, 600]
+
+
+// function FindMax(arr) {
+//   let Max = [0]
+
+//   for (let i = 1; i < arr.length; i++) {
+//       if(arr[i] > Max){
+//         Max = arr[i]
+//       }
+//   }
+//   return Max
+// }
+
+// console.log(FindMax(arr))
